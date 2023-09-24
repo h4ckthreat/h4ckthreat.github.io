@@ -31,8 +31,11 @@ url: "https://h4ckthreat.github.io"
 github:
   username: h4ckthreat # change to your github username
 
-twitter:
-  username: h4ckthreat # change to your twitter username
+# twitter:
+  # username: h4ckthreat # change to your twitter username
+  
+ linkedin:
+   username: h4ckthreat # change to your twitter username
 
 social:
   # Change to your full name.
