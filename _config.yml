@@ -21,9 +21,10 @@ timezone: America/Manaus
 title: Jadson Lima (h4ckthreat) # the main title
 
 tagline:  Security Researcher. # it will display as the sub-title
+tagline: Em um mundo hiperconectado onde a informação é cada vez mais valiosa, sua empresa está segura?
 
 description: >- # used by seo meta and the atom feed
-  Em um mundo hiperconectado onde a informação é cada vez mais valiosa, sua empresa está segura?.
+  h4ckthreat - Pesquisador de segurança e vulnerabilidades de sistemas.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://h4ckthreat.github.io"
