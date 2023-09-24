@@ -13,39 +13,39 @@ baseurl: ""
 lang: pt-BR
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: America/Manaus
+timezone: America/Sao_Paulo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Jadson Lima (h4ckthreat) # the main title
+title: Al4xs # the main title
 
-tagline:  Security Researcher. # it will display as the sub-title
+tagline:  Não importe aonde você vá, todos estão conectados. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  h4ckthreat - Pesquisador de segurança e vulnerabilidades de sistemas.
+  Blog pessoal do Al4xs.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://h4ckthreat.github.io"
+url: "https://al4xs.github.io"
 
 github:
-  username: h4ckthreat # change to your github username
+  username: al4xs # change to your github username
 
- twitter:
-   username: h4ckthreat # change to your twitter username
-  
+twitter:
+  username: # change to your twitter username
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: h4ckthreat
-  email: hackthreat@gmail.com # change to your email address
+  name: Al4xs
+  email: al4xs@protonmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # https://twitter.com/h4ckthreat # change to your twitter homepage
-    # https://github.com/h4ckthreat # change to your github homepage
+    - https://twitter.com/# # change to your twitter homepage
+    - https://github.com/al4xs # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-     - https://www.linkedin.com/in/h4ckthreat
+    # - https://www.linkedin.com/in/username
 
 google_site_verification: # fill in to your verification string
 
@@ -76,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://avatars.githubusercontent.com/u/5987583?v=4"
+avatar: "https://avatars.githubusercontent.com/u/40411471?v=4"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
