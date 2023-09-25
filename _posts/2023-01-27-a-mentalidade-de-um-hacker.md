@@ -1,12 +1,10 @@
 ---
 title: A mentalidade de um hacker
 date: 2023-01-27 14:30:00 +0800
-categories: [blog, irc]
+categories: [blog, x]
 tags: [hackers] # TAG names should always be lowercase
 image: https://blog.betrybe.com/wp-content/uploads/2022/08/como-ser-hacker-scaled.jpg
 ---
-
-# A mentalidade de um Hacker:
 
 <p align="justify"> Hackear não é sentar em um computador em uma sala escura e digitar em um PC remoto. Hacking é como você faz ciência. </p>
 
@@ -26,6 +24,6 @@ image: https://blog.betrybe.com/wp-content/uploads/2022/08/como-ser-hacker-scale
 
 <p align="justify"> Parece fácil, não é? Na verdade, não. A parte mais difícil virá quando você terá esse enorme ego em seu caminho sempre que tentar algo realmente novo ou desafiador. Dizer “Oh, eu sei disso” ou “Oh, isso é muito fácil” ou “Esta não é a minha xícara de chá” ou “Isso é realmente estúpido” não ajudará. A verdade é: </p> 
 
-`"Você não sabe de nada. Mas você com certeza vai descobrir isso."`
+> Você não sabe de nada. Mas você com certeza vai descobrir isso.
 
 <p align="justify"> A segunda parte desta receita é se familiarizar com o seu ofício. Hacking não se relaciona apenas com máquinas ou eletrônicos e computadores. Você pode ser um hacker, não importa o que você faça. Faça esculturas de vidro, pinte, conserte carros, projete fontes, ninguém se importa. Contanto que você tente obsessivamente resolver problemas, e você não tenha medo de falhar e chegar a soluções inovadoras, você é um hacker. O Obsessivo quer explorar seu ofício e se tornar o melhor “o que quer que seja” em seu campo é o sonho do hacker final. Nem o dinheiro, nem a fama, nem a “frieza” de nada. As pessoas que invadem os computadores de outras pessoas são chamadas de crackers. Aqueles que fazem isso para ganhar a vida são chamados de Profissionais de Segurança de Rede. Hacking em geral significa a engenhosidade de novas soluções para problemas potencialmente insolúveis. </p>
