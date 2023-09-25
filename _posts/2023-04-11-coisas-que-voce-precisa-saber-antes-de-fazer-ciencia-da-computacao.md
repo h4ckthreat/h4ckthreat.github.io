@@ -6,8 +6,6 @@ tags: [ciência da computação] # TAG names should always be lowercase
 image: https://www.serpro.gov.br/lgpd/noticias/2019/tratamento-etico-dados-pessoais-ciencia-data-science/foto-com-uma-mulher-olhando-para-varias-telas-de-computador-preenchidas-com-muitos-dados/@@images/image/large
 ---
 
-# Coisas que você precisa saber antes de fazer Ciência da Computação.
-
 <p align="justify"> Me lembro de uma conversa com meus colegas quando estávamos no último dia da faculdade, onde o assunto era “Que curso você faria se tivesse saindo do ensino médio agora?”. Minha resposta: exatamente o curso que acabei de fazer. Mas nem todo mundo tem essa felicidade e, confesso, essa sorte que eu tive, pois eu sempre tive certeza do que eu queria fazer quando tivesse concluído o ensino médio, sempre fui apaixonado e fascinado por tecnologia, curioso em saber como as coisas funcionavam, foi então que comecei o curso de Ciência da Computação e logo em seguida fiz Engenharia da Computação talvez eu conte essa segunda experiencia em uma outra publicação. Nesse post, quero responder algumas dúvidas que tínhamos naquela época e que muitos tem ainda hoje. As respostas são curtas e objetivas, e às vezes cutucam o senso comum.</p>
 
 # Esse post não é pra você se..
