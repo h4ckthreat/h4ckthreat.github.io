@@ -59,7 +59,7 @@ Sim, e como. Não espere aprender tudo somente nas aulas. Na verdade, as aulas s
 Com certeza, mas te adianto que vai ter que sacrificar algumas noites de sono pra estudar aquelas matérias e assuntos mais densos. Você está lá pra estudar e essa é a prioridade. A experiência é importante pra sua formação, mas não a ponto de sacrificar seus estudos. Estudei sempre a noite e trabalhei desde o primeiro semestre, perdi as contas das vezes que virei a noite estudando, e no dia seguinte ainda tinha que está no trabalho, alguns sacrifícios valem a pena.
 
 # 7. Pública ou privada?
-Nem sequer faça essa pergunta. Do ponto de vista financeiro, é possível fazer faculdade privada mesmo sem ter dinheiro (como [Prouni](http://prouniportal.mec.gov.br/) ou [FIES](http://sisfiesportal.mec.gov.br/)). A pergunta deve ser: qual a melhor instituição? Qual tem os melhores professores e melhor estrutura? Aqui vão algumas que sei que são ótimas em Ciência da Computação e Engenharia da Computação:
+Nem sequer faça essa pergunta. Do ponto de vista financeiro, é possível fazer faculdade privada mesmo sem ter dinheiro (como Prouni ou FIES). A pergunta deve ser: qual a melhor instituição? Qual tem os melhores professores e melhor estrutura? Aqui vão algumas que sei que são ótimas em Ciência da Computação e Engenharia da Computação:
 
 `"Públicas: UFAM, UEA."`
 
@@ -68,7 +68,7 @@ Nem sequer faça essa pergunta. Do ponto de vista financeiro, é possível fazer
 Leia as grades curriculares, depoimentos de alunos e currículo dos professores da universidade que você considerar. Não se limite às que eu mencionei, pois existem outras tão boas quanto que podem ser mais convenientes pra você.
 
 # 8. Só quero desenvolver jogos. Devo fazer Ciência da Computação?
-Você pode, mas não recomendo. Alguns cursos de computação tem disciplinas de jogos, mas nunca é o foco. Se você quer trabalhar com desenvolvimento de jogos, procure cursos focados nisso [(a PUCSP tem um muito bom)](http://www.pucsp.br/graduacao/superior-de-tecnologia-em-jogos-digitais). Em Ciência da Computação você vai passar 90% do tempo aprendendo coisas que não vão contribuir pro seu objetivo (embora possam fazer você mudar de ideia). Mas se você tem certeza, vá direto ao ponto sem passar por Ciência da Computação.
+Você pode, mas não recomendo. Alguns cursos de computação tem disciplinas de jogos, mas nunca é o foco. Se você quer trabalhar com desenvolvimento de jogos, procure cursos focados nisso [(a PUCSP tem um muito bom)](https://www.pucsp.br/graduacao/superior-de-tecnologia-em-jogos-digitais). Em Ciência da Computação você vai passar 90% do tempo aprendendo coisas que não vão contribuir pro seu objetivo (embora possam fazer você mudar de ideia). Mas se você tem certeza, vá direto ao ponto sem passar por Ciência da Computação.
 
 Ainda tem alguma dúvida sobre o curso ou quer complementar essa lista? Deixe seu comentário e ficarei feliz em tentar responder. Se preferir, pode me contatar pelo [Instagram[](https://www.instagram.com/h4ckthreat/).
 
