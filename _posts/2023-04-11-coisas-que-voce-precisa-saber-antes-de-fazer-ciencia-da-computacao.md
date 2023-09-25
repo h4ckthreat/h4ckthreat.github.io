@@ -42,13 +42,13 @@ Não se desespere.
 # 4. Ciência da Computação ou Sistemas de Informação?
 <p align="justify"> Muitos acham os dois cursos tão similares que parecem a mesma coisa. Mas aqui vão duas verdades que ninguém diz com todas as letras:</p>
 
-`"1: Sistemas de Informação e Ciência da Computação são completamente diferentes"`
+> 1: Sistemas de Informação e Ciência da Computação são completamente diferentes
 
-`"2: Ciência da Computação não tem nada a ver com computadores"`
+> 2: Ciência da Computação não tem nada a ver com computadores
 
 <p align="justify"> Vamos direto pra mais polêmica. Computação e computadores são coisas diferentes. Se você quer aprender a “mexer” em computadores, dar manutenção neles ou ser especialista em algum software, Ciência da Computação vai ser uma perda de tempo. Computação é um conceito matemático, e, antes de tudo, uma ciência. O curso é baseado em como fazer computação, enquanto que um computador é o que faz a computação. Apesar de relação, são coisas muito diferentes.</p>
 
-`"Mas como decidir entre Sistemas de Informação e Ciência da Computação?"`
+> Mas como decidir entre Sistemas de Informação e Ciência da Computação ?
 
 <p align="justify"> Sistemas de Informação é um curso menos teórico, com menos disciplinas de matemática e mais voltado pro mercado de trabalho, focando em como desenvolver sistemas e tecnologias. Alguém de Sistemas de Informação usa Java pra desenvolver um sistema de gestão de estoque de uma empresa. Alguém de Ciência da Computação desenvolve o Java. Se você prefere desenvolver e usar sistemas pra fazer algo prático, independentemente da teoria por trás de tudo, Sistemas de Informação é mais sua cara.</p>
 
@@ -61,9 +61,9 @@ Não se desespere.
 # 7. Pública ou privada?
 <p align="justify"> Nem sequer faça essa pergunta. Do ponto de vista financeiro, é possível fazer faculdade privada mesmo sem ter dinheiro (como Prouni ou FIES). A pergunta deve ser: qual a melhor instituição? Qual tem os melhores professores e melhor estrutura? Aqui vão algumas que sei que são ótimas em Ciência da Computação e Engenharia da Computação:</p>
 
-`"Públicas: UFAM, UEA."`
+> Públicas: UFAM, UEA.
 
-`"Privadas: FUCAPI, UNINORTE, CIESA.`"
+> Privadas: FUCAPI, UNINORTE, CIESA.
 
 <p align="justify"> Leia as grades curriculares, depoimentos de alunos e currículo dos professores da universidade que você considerar. Não se limite às que eu mencionei, pois existem outras tão boas quanto que podem ser mais convenientes pra você.</p>
 
