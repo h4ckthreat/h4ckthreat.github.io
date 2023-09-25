@@ -70,6 +70,8 @@ Não se desespere.
 # 8. Só quero desenvolver jogos. Devo fazer Ciência da Computação?
 <p align="justify"> Você pode, mas não recomendo. Alguns cursos de computação tem disciplinas de jogos, mas nunca é o foco. Se você quer trabalhar com desenvolvimento de jogos, procure cursos focados nisso [(a PUCSP tem um muito bom)](https://www.pucsp.br/graduacao/superior-de-tecnologia-em-jogos-digitais). Em Ciência da Computação você vai passar 90% do tempo aprendendo coisas que não vão contribuir pro seu objetivo (embora possam fazer você mudar de ideia). Mas se você tem certeza, vá direto ao ponto sem passar por Ciência da Computação.</p>
 
-<p align="justify"> Ainda tem alguma dúvida sobre o curso ou quer complementar essa lista? Deixe seu comentário e ficarei feliz em tentar responder. Se preferir, pode me contatar pelo [Instagram](https://www.instagram.com/h4ckthreat/).</p>
+<p align="justify"> Ainda tem alguma dúvida sobre o curso ou quer complementar essa lista? Deixe seu comentário e ficarei feliz em tentar responder. Se preferir, pode me contatar pelo <a href="https://www.instagram.com/h4ckthreat/"><i>Instagram.</i></a></p>
 
 Bons estudos!
+
+<a href="https://www.instagram.com/decryptsec/"><i>Decrypt Security</i></a>
