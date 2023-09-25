@@ -1,7 +1,7 @@
 ---
 title: A mentalidade de um hacker
 date: 2023-01-27 14:30:00 +0800
-categories: [blog, x]
+categories: [h4ckthreat, hacking]
 tags: [hackers] # TAG names should always be lowercase
 image: https://blog.betrybe.com/wp-content/uploads/2022/08/como-ser-hacker-scaled.jpg
 ---
