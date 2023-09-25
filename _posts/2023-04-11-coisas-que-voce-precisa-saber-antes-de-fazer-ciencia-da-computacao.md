@@ -3,7 +3,7 @@ title: Coisas que você precisa saber antes de fazer Ciência da Computação
 date: 2023-09-22 14:30:00 +0800
 categories: [blog, irc]
 tags: [hackers] # TAG names should always be lowercase
-image: https://github.com/h4ckthreat/h4ckthreat.github.io/blob/main/assets/img/posts/coisas-que-voce-precisa-saber-antes-de-fazer-ciencia-da-computacao.jpg
+image: https://www.serpro.gov.br/lgpd/noticias/2019/tratamento-etico-dados-pessoais-ciencia-data-science/foto-com-uma-mulher-olhando-para-varias-telas-de-computador-preenchidas-com-muitos-dados/@@images/image/large
 ---
 
 # Coisas que você precisa saber antes de fazer Ciência da Computação.
