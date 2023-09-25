@@ -67,7 +67,7 @@ Não se desespere.
 <p align="justify"> Leia as grades curriculares, depoimentos de alunos e currículo dos professores da universidade que você considerar. Não se limite às que eu mencionei, pois existem outras tão boas quanto que podem ser mais convenientes pra você.</p>
 
 # 8. Só quero desenvolver jogos. Devo fazer Ciência da Computação?
-<p align="justify"> Você pode, mas não recomendo. Alguns cursos de computação tem disciplinas de jogos, mas nunca é o foco. Se você quer trabalhar com desenvolvimento de jogos, procure cursos focados nisso (a <a href="https://www.pucsp.br/graduacao/superior-de-tecnologia-em-jogos-digitais"><i>PUCSP</i></a> tem um muito bom). Em Ciência da Computação você vai passar 90% do tempo aprendendo coisas que não vão contribuir pro seu objetivo (embora possam fazer você mudar de ideia). Mas se você tem certeza, vá direto ao ponto sem passar por Ciência da Computação.</p>
+<p align="justify"> Você pode, mas não recomendo. Alguns cursos de computação tem disciplinas de jogos, mas nunca é o foco. Se você quer trabalhar com desenvolvimento de jogos, procure cursos focados nisso (a <a href="https://www.pucsp.br/graduacao/superior-de-tecnologia-em-jogos-digitais"><i>PUCSP </i></a> tem um muito bom). Em Ciência da Computação você vai passar 90% do tempo aprendendo coisas que não vão contribuir pro seu objetivo (embora possam fazer você mudar de ideia). Mas se você tem certeza, vá direto ao ponto sem passar por Ciência da Computação.</p>
 
 <p align="justify"> Ainda tem alguma dúvida sobre o curso ou quer complementar essa lista? Deixe seu comentário e ficarei feliz em tentar responder. Se preferir, pode me contatar pelo <a href="https://www.instagram.com/h4ckthreat/"><i>Instagram.</i></a></p>
 
