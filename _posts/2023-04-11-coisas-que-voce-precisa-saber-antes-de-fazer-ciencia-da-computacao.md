@@ -27,6 +27,7 @@ image: https://www.serpro.gov.br/lgpd/noticias/2019/tratamento-etico-dados-pesso
 
 Não entendeu nada?
 Não se desespere.
+
 <p align="justify"> Em Ciência da Computação, você desenvolve algoritmos e sistemas para resolver problemas lógicos. Por exemplo, uma simples calculadora — que tem por objetivo fazer contas — ou o sistema de GPS de um carro. Os sistemas em si não necessariamente influenciam o mundo real, mas criam uma representação lógica de algo real dentro de um sistema.</p>
 
 <p align="justify"> Já a Engenharia da Computação usa sistemas computacionais para automatizar processos ou influenciar o mundo físico. Um engenheiro não faz o GPS do carro. Um engenheiro projeta o carro. Daí a necessidade de ter uma formação mais forte em física, pois um engenheiro precisa dominar conceitos de mecânica, cálculo avançado e física de materiais.</p>
