@@ -8,11 +8,11 @@ image: https://blog.betrybe.com/wp-content/uploads/2022/08/como-ser-hacker-scale
 
 <p align="justify"> Hackear não é sentar em um computador em uma sala escura e digitar em um PC remoto. Hacking é como você faz ciência. </p>
 
-# O que é Hacking ?
+# O que é hacking ?
 
 <p align="justify"> Hacking é um termo que se originou no MIT no final da década de 1950 no que era então chamado de Tech Model Railroad Club, onde o termo hack ou hacking era usado em termos de mexer com máquinas de maneiras que superam o manual do usuário. O termo hacking em si é tão emocionante que aqueles realmente interessados em resolver problemas e trazer novas ideias à vida abraçam o termo hacking para desconsiderar o fato de serem julgados pelos dois tempos que invadem computadores de outras pessoas por diversão. Desmontar as coisas e corrigi-las para fins de melhoria ou melhor eficiência é o que o Hacking é. </p>
 
-# Conexão com a História:
+# Conexão com a história:
 
 <p align="justify">Embora o termo hacking seja relativamente novo, temos hackers há gerações na história. Nikola Tesla, Henry Ford até Isaac Newton e inúmeros outros grandes cientistas lendários e inovadores, que mudaram o curso de nossa compreensão científica. Esses caras passaram a vida inteira desvendando os mistérios do universo, encontrando soluções para os problemas mais difíceis, inventando novidades que não apenas resistiram ao teste do tempo, mas foram celebradas ao longo de décadas. </p>
 
