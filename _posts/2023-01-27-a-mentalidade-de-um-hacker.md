@@ -3,7 +3,7 @@ title: A mentalidade de um hacker
 date: 2023-01-27 14:30:00 +0800
 categories: [h4ckthreat, hacking]
 tags: [hacking] # TAG names should always be lowercase
-image: assets/img/posts/hacker.jpg
+image:  /assets/img/posts/hacker.jpg
 ---
 
 <p align="justify"> Hackear não é sentar em um computador em uma sala escura e digitar em um PC remoto. Hacking é como você faz ciência. </p>
