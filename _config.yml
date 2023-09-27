@@ -77,8 +77,6 @@ img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "https://avatars.githubusercontent.com/u/5987583?v=4"
-  width: 160
-  height: 160
   
 # boolean type, the global switch for TOC in posts.
 toc: true
