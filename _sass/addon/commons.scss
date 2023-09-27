@@ -729,6 +729,12 @@ $btn-mb: 0.5rem;
         transform: scale(1.2);
       }
     }
+    img {
+      width: 160px;
+      height: 160px;
+      background-image: url('https://avatars.githubusercontent.com/u/5987583?v=4');
+      background-size: cover;
+    }
   }
 
   .profile-wrapper {
