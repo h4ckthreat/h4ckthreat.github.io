@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   h4ckthreat - Pesquisador de segurança e vulnerabilidades de sistemas.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://h4ckthreat.com"
+url: "https://blog.h4ckthreat.com"
 
 github:
   username: h4ckthreat # change to your github username
