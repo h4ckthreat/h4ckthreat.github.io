@@ -2,7 +2,7 @@
 title: A mentalidade de um hacker
 date: 2023-01-27 14:30:00 +0800
 categories: [h4ckthreat, hacking]
-tags: [hacking] # TAG names should always be lowercase
+tags: [Hacking] # TAG names should always be lowercase
 image:  /assets/img/posts/hacker.jpg
 ---
 
