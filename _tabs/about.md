@@ -38,6 +38,25 @@ Ampla carreira baseada em sólidos conhecimentos técnicos nas principais tecnol
 - Montagem e manutenção de microcomputadores
 - Desenvolvimento web com HTML, CSS e Javascript
 
+Linguagens e Tecnologias:
+  
+- Linguagem Assembly
+- Linguagem C/C++
+- Linguagem C#
+- Linguagem Shell Script
+- Linguagem PowerShell
+- Linguagem Python
+- Linguagem PHP
+- Linguagem Haskell
+- Linguagem Perl
+- Linguagem Ruby
+- Linguagem Rust
+- Linguagem GO
+- Linguagem SQL
+- Linguagem Java
+- Linguagem Javascript
+
+
 <p align="justify"> Jamais considere seus estudos como uma obrigação, mas como uma oportunidade invejável para aprender a conhecer a beleza libertadora do intelecto para seu próprio prazer pessoal e para proveito da comunidade à qual seu futuro trabalho pertencer.</p>
 Albert Einstein
 
