@@ -3,7 +3,7 @@ title: Entenda a diferença entre Deep Web e Dark Web
 date: 2023-02-10 14:30:00 +0800
 categories: [h4ckthreat, Privacidade Digital]
 tags: [Dark Web, Deep Web] # TAG names should always be lowercase
-image: /assets/img/posts/deep-web-post.webp
+image: /assets/img/posts/deep-web-post.jpg
 ---
 
 <p align="justify">Dark web e deep web são frequentemente usadas de forma intercambiável, mas são dois conceitos distintos. A percepção comum é que ambas são focos de atividades criminosas, apesar disto não ser uma verdade absoluta. Neste artigo, explicarei o que é a deep web, a dark web, as diferenças entre as duas e alguns temas relacionados. </p>
