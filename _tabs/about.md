@@ -10,7 +10,7 @@ order: 4
 
 <p align="justify"> Além disso, sou um dos fundadores da comunidade <a href="https://www.instagram.com/lowlevelclub/"><i>Low Level Club</i></a> no Discord, junto com cinco amigos. Nossa comunidade é um espaço dedicado a estudantes que desejam se especializar em programação de baixo nível.</p>
 
-<p align="justify">Adoro trocar ideias e conhecimento, e estou sempre disposto a aprender algo novo enquanto tomamos um café juntos. Fique à vontade para entrar em contato comigo pelo e-mail: </p> [](mailto:h4ckthreat@gmail.com)
+<p align="justify">Adoro trocar ideias e conhecimento, e estou sempre disposto a aprender algo novo enquanto tomamos um café juntos. Fique à vontade para entrar em contato comigo pelo e-mail: </p> [z](mailto:h4ckthreat@gmail.com)
 
 <p align="justify"> Como pesquisador de segurança e vulnerabilidades de sistemas, tenho uma vasta experiência na área de tecnologia da informação. Atualmente, meu foco principal está na Segurança da Informação Ofensiva.</p>
 
