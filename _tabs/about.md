@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<p align="justify"> Sou apaixonado por tecnologia! Meu primeiro encontro com computadores ocorreu aos meus sete anos, e desde então, tenho explorado esse incrível universo. Sou fascinado pelas oportunidades que a tecnologia oferece às pessoas e pela forma como ela simplifica nossas vidas. Meu sonho é viajar pelo mundo, compartilhando conhecimento e acumulando experiências únicas.</p>
+<p align="justify"> Sou apaixonado por tecnologia! Meu primeiro contato com computadores ocorreu aos meus sete anos, e desde então, tenho explorado esse incrível universo. Sou fascinado pelas oportunidades que a tecnologia oferece às pessoas e pela forma como ela simplifica nossas vidas. Meu sonho é viajar pelo mundo, compartilhando conhecimento e acumulando experiências únicas.</p>
 
 <p align="justify"> Acredito firmemente que o conhecimento deve ser acessível a todos, e é por isso que criei a página <a href="https://www.instagram.com/decryptsec/"><i>Decrypt Security</i></a>. Nela, ofereço conteúdo de alta qualidade gratuitamente, com o objetivo de introduzir mais pessoas ao vasto campo da segurança da informação. A página contém uma riqueza de recursos, incluindo repositórios, tutoriais e guias para orientar aqueles que estão trilhando o caminho da segurança cibernética. Minha paixão por aprender coisas novas, trabalhar em equipe e buscar novas experiências me motiva a dedicar meu tempo aos estudos, aprimorando minhas habilidades como pentester e engenheiro reverso a cada dia.</p>
 
