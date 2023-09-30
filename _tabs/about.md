@@ -56,11 +56,15 @@ Linguagens e Tecnologias:
 - Linguagem Java
 - Linguagem Javascript
 
+Áreas de interesse:
+
+- Pentest
+- Reverse Engineering
+- Exploit Development
+- Kernel Development
 
 <p align="justify"> Jamais considere seus estudos como uma obrigação, mas como uma oportunidade invejável para aprender a conhecer a beleza libertadora do intelecto para seu próprio prazer pessoal e para proveito da comunidade à qual seu futuro trabalho pertencer.</p>
-
-Albert Einstein
-
+> Albert Einstein
 
 ![image](/assets/img/about/h4ckthreat.jpg)
 
