@@ -2,7 +2,7 @@
 title: Entenda a diferença entre Deep Web e Dark Web
 date: 2023-02-10 14:30:00 +0800
 categories: [h4ckthreat, Privacidade Digital]
-tags: [Dark Web, Deep Web] # TAG names should always be lowercase
+tags: [Dark Web, Deep Web, Privacidade Digital] # TAG names should always be lowercase
 image: /assets/img/posts/deep-web-post.jpg
 ---
 
