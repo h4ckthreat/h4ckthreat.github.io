@@ -6,7 +6,7 @@ tags: [Privacidade Digital] # TAG names should always be lowercase
 image: /assets/img/posts/sistema-seguro.jpg
 ---
 
-<p align="justify"> Os investimentos em cyber segurança têm sido cada vez mais assertivos em proteger dados, e isso não é surpresa; nunca antes tantas informações foram captadas e armazenadas por empresas. Protegê-los é uma questão de necessidade. </p>
+<p align="justify"> Os investimentos em cyber security têm sido cada vez mais assertivos em proteger dados, e isso não é surpresa; nunca antes tantas informações foram captadas e armazenadas por empresas. Protegê-los é uma questão de necessidade. </p>
 
 <p align="justify"> É por isso que toda a segurança da informação se baseia em um princípio: nenhum sistema pode ser completamente seguro — ainda que você faça tudo certo. </p>
 
@@ -26,8 +26,7 @@ image: /assets/img/posts/sistema-seguro.jpg
 
 <p align="justify"> As empresas, por outro lado, podem perder muito mais do que só dinheiro em invasões dentro de seus bancos de dados. E isso pode acontecer com uma armadilha complexa ou até simples, como um funcionário que coloca toda uma reputação em risco por um simples clique em um link desconhecido. </p>
 
-<p align="justify"> É por isso que tem de haver conscientização de ambas as partes, porque os
-dois podem perder — e muito — em casos de roubo de dados. Há sempre uma brecha. E, ainda que seja muito seguro, não quer dizer completamente seguro. </p>
+<p align="justify"> É por isso que tem de haver conscientização de ambas as partes, porque os dois podem perder — e muito — em casos de roubo de dados. Há sempre uma brecha. E, ainda que seja muito seguro, não quer dizer completamente seguro. </p>
 
 # O que fazer para se proteger ?
 
@@ -35,17 +34,17 @@ dois podem perder — e muito — em casos de roubo de dados. Há sempre uma bre
 
 Tudo bem, mas o que tudo isso quer dizer? O que fazer agora?
 
-<p align="justify"> Quer dizer que nunca foi tão importante dar atenção para a Segurança da Informação. Para manter tudo o mais seguro possível, indicamos três práticas: </p>
+<p align="justify"> Quer dizer que nunca foi tão importante dar atenção para a Segurança da Informação. Para manter tudo o mais seguro possível, indico três práticas: </p>
 
-1. Tenha uma empresa de Segurança da Informação disponível para os seus serviços:
+1 - Tenha uma empresa de Segurança da Informação disponível para os seus serviços:
 
-<p align="justify"> Se a sua instituição é de grande escala, o mais indicado é ter uma equipe só para o ramo. No entanto, em caso de pequenas empresas, ainda que você não tenha um próprio setor de segurança da informação, é importante saber quem procurar e em quem confiar. Duas práticas muito eficientes que indicamos aos nossos clientes são os serviços de Consultoria e o PenTest. Ambos podem ajudar muito na identificação e correção de vulnerabilidades. </p>
+<p align="justify"> Se a sua instituição é de grande escala, o mais indicado é ter uma equipe só para o ramo. No entanto, em caso de pequenas empresas, ainda que você não tenha um próprio setor de segurança da informação, é importante saber quem procurar e em quem confiar. Duas práticas muito eficientes que indico aos nossos clientes são os serviços de Consultoria e o Pentest. Ambos podem ajudar muito na identificação e correção de vulnerabilidades. </p>
 
-2. Ensine aos funcionários sobre a Segurança de Dados:
+2 - Ensine aos funcionários sobre a Segurança de Dados:
 
 <p align="justify"> E isso quer dizer treinamentos que englobem funcionários de todas as áreas da corporação. A principal brecha na segurança de sistemas é o fator humano; a maioria dos ataques foca em induzir comportamentos errados. Por isso, essa abordagem funciona melhor e constrói, pouco a pouco, uma aplicação cada vez mais consciente de práticas seguras para manter, em pequenos hábitos, a empresa mais blindada.</p>
 
-3. Mantenha os softwares atualizados:
+3 - Mantenha os softwares atualizados:
 
 <p align="justify"> Os fabricantes trabalham constantemente em atualizações e correções, tudo visando à diminuição de invasões. Acima de tudo, elas são importantes porque os Malwares normalmente estão habituados com as seguranças antigas, e não com as atualizadas. Portanto, estar sempre em dia também dificulta muito o processo de ataque.</p>
 
