@@ -8,3 +8,16 @@
     background-color: #F074C0; /* Cor de fundo para a seleção de texto */
     color: #000000; /* Cor do texto selecionado */
 }
+
+#sidebar .site-subtitle {
+    font-size: 100%;
+    color: var(--sidebar-muted-color);
+    margin-top: .25rem;
+    margin-left: 0.5rem;
+    word-spacing: 1px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
