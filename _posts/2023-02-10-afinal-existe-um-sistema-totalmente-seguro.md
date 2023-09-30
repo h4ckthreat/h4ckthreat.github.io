@@ -36,15 +36,15 @@ Tudo bem, mas o que tudo isso quer dizer? O que fazer agora?
 
 <p align="justify"> Quer dizer que nunca foi tão importante dar atenção para a Segurança da Informação. Para manter tudo o mais seguro possível, indico três práticas: </p>
 
-> 1. Tenha uma empresa de Segurança da Informação disponível para os seus serviços:
+1 - Tenha uma empresa de Segurança da Informação disponível para os seus serviços:
 
 <p align="justify"> Se a sua instituição é de grande escala, o mais indicado é ter uma equipe só para o ramo. No entanto, em caso de pequenas empresas, ainda que você não tenha um próprio setor de segurança da informação, é importante saber quem procurar e em quem confiar. Duas práticas muito eficientes que indico aos nossos clientes são os serviços de Consultoria e o Pentest. Ambos podem ajudar muito na identificação e correção de vulnerabilidades. </p>
 
-> 2. Ensine aos funcionários sobre a Segurança de Dados:
+2 - Ensine aos funcionários sobre a Segurança de Dados:
 
 <p align="justify"> E isso quer dizer treinamentos que englobem funcionários de todas as áreas da corporação. A principal brecha na segurança de sistemas é o fator humano; a maioria dos ataques foca em induzir comportamentos errados. Por isso, essa abordagem funciona melhor e constrói, pouco a pouco, uma aplicação cada vez mais consciente de práticas seguras para manter, em pequenos hábitos, a empresa mais blindada.</p>
 
-> 3. Mantenha os softwares atualizados:
+3 - Mantenha os softwares atualizados:
 
 <p align="justify"> Os fabricantes trabalham constantemente em atualizações e correções, tudo visando à diminuição de invasões. Acima de tudo, elas são importantes porque os Malwares normalmente estão habituados com as seguranças antigas, e não com as atualizadas. Portanto, estar sempre em dia também dificulta muito o processo de ataque.</p>
 
