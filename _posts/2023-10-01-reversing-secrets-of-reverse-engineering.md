@@ -65,3 +65,5 @@ image: /assets/img/posts/reversing.jpg
 ## Considerações Finais:
 <p align="justify"> Reversing: Secrets of Reverse Engineering é uma obra abrangente que proporciona uma visão aprofundada da engenharia reversa. O autor equilibra habilmente teoria e prática, tornando-o uma leitura valiosa para qualquer pessoa interessada em desvendar os segredos por trás de sistemas de software e hardware. No entanto, devido à sua natureza técnica, pode ser um desafio para leitores sem um conhecimento sólido em programação e sistemas, embora seja uma fonte valiosa de aprendizado para quem está disposto a mergulhar fundo no assunto.</p>
 
+<p align="justify"><a href="https://repo.zenk-security.com/Reversing%20.%20cracking/Reversing%20-%20Secrets%20Of%20Reverse%20Engineering%20(2005).pdf"><i>Reversing: Secrets of Reverse Engineering</i></a></p>
+
