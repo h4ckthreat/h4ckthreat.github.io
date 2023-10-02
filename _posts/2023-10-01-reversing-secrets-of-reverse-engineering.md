@@ -12,7 +12,7 @@ image: /assets/img/posts/reversing.jpg
 <p align="justify"> O livro é organizado de forma clara e progressiva, começando com uma introdução que define os conceitos-chave e os princípios subjacentes da engenharia reversa. Ele abrange uma ampla gama de tópicos, incluindo a desmontagem de código binário, a análise de código de máquina, a depuração, a engenharia de firmware e a engenharia reversa de protocolos de comunicação.</p>
 
 # Conteúdo Técnico:
-<p align="justify"> O autor mergulha profundamente em tópicos técnicos complexos, explicando com detalhes como os sistemas de software e hardware funcionam e como podem ser desmontados, analisados e modificados. Ele discute a estrutura de programas, a representação de dados, a arquitetura de sistemas, a engenharia reversa de malware e a análise de vírus.</p>
+<p align="justify"> O autor mergulha profundamente em tópicos técnicos complexos, explicando com detalhes como os sistemas de software e hardware funcionam e como podem ser desmontados, analisados e modificados. Ele discute a estrutura de programas, a representação de dados, a arquitetura de sistemas, a engenharia reversa de malware e a análise de malware.</p>
 
 # Ferramentas e Técnicas:
 <p align="justify"> Um dos pontos fortes do livro é a exploração de várias ferramentas e técnicas que os engenheiros reversos podem utilizar. Eldad Eilam abrange o uso de depuradores, desmontadores, emuladores, engenharia social e até mesmo a engenharia reversa de dispositivos de hardware. Ele fornece exemplos práticos de como essas ferramentas e técnicas podem ser aplicadas.</p>
