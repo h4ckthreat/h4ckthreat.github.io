@@ -20,6 +20,7 @@ image:  /assets/img/posts/hacker.jpg
 
 # A receita:
 
+
 <p align="justify"> Adotar uma mentalidade de hacker não é apenas simples, mas um esforço aparentemente sem esforço. Tudo o que é necessário é estar preparado. Isso mesmo, você precisa estar pronto para cometer erros, estar disposto a estragar tudo, e abandonar o seu ego, orgulho e preconceitos. É preciso estar disposto a sujar as mãos, a enfrentar desafios. Aprender a cair, a falhar com graça e a se levantar humildemente para continuar. </p>
 
 <p align="justify"> Pode parecer simples, mas na realidade, não é. A parte mais desafiadora surge quando o seu próprio ego se coloca como um obstáculo sempre que você tenta algo novo ou desafiador. Dizer coisas como "Oh, eu já sei disso" ou "Oh, isso é muito fácil" ou "Isso não é para mim" ou "Isso é realmente estúpido" não o levará adiante. A verdade é: </p>
