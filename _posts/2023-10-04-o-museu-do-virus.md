@@ -1,16 +1,16 @@
 ---
-title: O museu do Vírus
+title: O museu do Malware
 date: 2023-10-04 14:30:00 +0800
 categories: [Malware]
 tags: [Malware] # TAG names should always be lowercase
 image: /assets/img/posts/museu-virus.jpg
 ---
 
-<p align="justify"> O Museu do Vírus reúne uma coleção de malwares destinados aos sistemas operacionais MS-DOS e Windows, permitindo aos visitantes explorar a história dos vírus e malwares populares que marcaram os últimos anos da era da Internet. Este museu virtual foi lançado pelo <a href="https://archive.org/"><i>Internet Archive</i></a>, e está acessível no link no final do artigo, proporcionando uma oportunidade única para entender como essas ameaças evoluíram e afetaram os sistemas.</p>
+<p align="justify"> O Museu do Malware reúne uma coleção de malwares destinados aos sistemas operacionais MS-DOS e Windows, permitindo aos visitantes explorar a história dos vírus e malwares populares que marcaram os últimos anos da era da Internet. Este museu virtual foi lançado pelo <a href="https://archive.org/"><i>Internet Archive</i></a>, e está acessível no link no final do artigo, proporcionando uma oportunidade única para entender como essas ameaças evoluíram e afetaram os sistemas.</p>
 
 <p align="justify"> Cada item da coleção, representando um tipo de ameaça, exibe informações detalhadas e oferece a capacidade de emular o comportamento do malware em uma máquina. Essa emulação permite que os usuários revivam a experiência de como o vírus aparecia na tela de um computador afetado. Ao explorar esse museu, é possível relembrar como eram os vírus que circulavam nos computadores das décadas de 80 e 90. </p>
 
-<p align="justify"> Para aqueles que desejam entender o funcionamento dos vírus antigos, o "The Malware Museum" (ou Museu do Malware, em português) oferece um acervo interativo com dezenas de amostras de malware. Para acessar, basta visitar o site no endereço archive.org/malwaremuseum.</p>
+<p align="justify"> Para aqueles que desejam entender o funcionamento dos vírus antigos, o "The Malware Museum" (ou Museu do Malware, em português) oferece um acervo interativo com dezenas de amostras de malware. Para acessar, basta visitar o site no final do artigo.</p>
 
 <p align="justify"> Ao abrir um dos itens, os usuários podem ativar um emulador localizado na parte superior da tela, permitindo visualizar como o malware se comportaria em um sistema. É importante ressaltar que a parte maliciosa do programa foi removida, deixando apenas um simulador seguro para fins de observação.</p>
 
