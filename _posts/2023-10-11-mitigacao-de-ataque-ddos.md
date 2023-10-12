@@ -2,7 +2,7 @@
 title: Mitigação de ataque DDoS
 date: 2023-10-11 14:30:00 +0800
 categories: [h4ckthreat, Privacidade Digital]
-tags: [Privacidade Digital] # TAG names should always be lowercase
+tags: [Privacidade Digital, DDoS] # TAG names should always be lowercase
 image: /assets/img/posts/ddos.jpg
 ---
 
@@ -17,7 +17,7 @@ image: /assets/img/posts/ddos.jpg
 
 <p align="justify"> <strong> Análise: </strong> Na última fase de análise os registros de segurança são analisados para colher informações sobre o ataque, tanto para identificar os atacantes quanto para aprimorar a resiliência. A efetividade do processo depende da existência de registros de segurança detalhados que possam oferecer maior visibilidade do tráfego do ataque.</p>
 
-# Técnicas de desvio: Roteamento DNS vs BGP:
+# Técnicas de desvio (Roteamento DNS vs BGP):
 <p align="justify"> Os processos descritos abaixo dependem nos mecanismos de redirecionamento que consigam desviar o tráfego malicioso do alvo. Na maioria dos casos, uma solução para mitigação irá usar ou roteamento DNS (Domain Name System) ou BGP (Border Gateway Protocol) para desviar o tráfego malicioso. Essa escolha irá definir suas funcionalidades e o tipo de segurança que pode ser ofertada.</p>
 
 <p align="justify"><strong> Roteamento DNS (ou redirecionamento DNS): </strong> é um método muito usado por serviços de mitigação DDoS: O Roteamento DNS é ativado trocando o nome CNAME e o Registro A, para que aponte o IP(s) do provedor de mitigação. Após isso, DNS inicialmente roteia todas as requisições HTTP/S para seu provedor de mitigação, onde as requisições maliciosas são descartadas e as legítimas são encaminhadas. O redirecionamento DNS somente é efetivo em mitigação de ataques na camada de aplicação. No entanto, tem o benefício de mascarar o endereço de IP do domínio. Isso oferece alguma proteção contra ataques diretamente na camada IP.</p>
@@ -49,7 +49,7 @@ image: /assets/img/posts/ddos.jpg
 
 <p align="justify"> <strong> Valor e SLA:</strong> definir um preço para serviços de mitigação podem variar de taxas mensais ou pagamentos durante o serviço é necessário. O segundo é baseado no acúmulo de banda dos ataques (e.g, 50 Gbps por mês) ou o número de horas que estava sob ataque (e.g, 12 horas por mês). Um ataque DDoS pode durar horas ou dias (e até semanas), o custo pode aumentar exponencialmente. Por isso existem os acordos de taxas mensais para acordos de longo prazo. O Acordo de nível de serviço do provedor de mitigação (SLA) é outro aspecto importante a se considerar, até mais que o valor, pois determina a eficiência do serviço e possivelmente a crebilidade do sistema. Algumas métricas a se considerar:</p>
 
-> Nível de funcionamento — Geralmente o nível de funcionamento é definido como all-times, abaixo disso é considerado obsoleto.:
+> Nível de funcionamento — Geralmente o nível de funcionamento é definido como all-times, abaixo disso é considerado obsoleto.
 
 > Níveis de proteção: conforme descrito aqui, o SLA do provedor deve definir os tipos de ataque, tamanho e duração que ele cobre.
 
