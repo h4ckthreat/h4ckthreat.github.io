@@ -100,7 +100,7 @@ Por fim, ressaltando todos os tópicos abordados nesse artigo, podemos considera
 
 Além deste conhecimento você também foi apresentado a uma das melhores ferramentas utilizadas por profissionais no setor de eletrônica, o LogiSIM, com isso você está preparado para projetar e simular qualquer lógica digital.
 
-<p> Baixar LogiSIM: <a href="http://www.cburch.com/logisim/index.html"><i>LogiSIM</i></a></p>
+<p> Baixar LogiSIM: <a href="https://www.cburch.com/logisim/index.html"><i>LogiSIM</i></a></p>
 
 
 
