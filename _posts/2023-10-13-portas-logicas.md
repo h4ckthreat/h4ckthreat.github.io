@@ -100,7 +100,7 @@ image: /assets/img/posts/portas-logicas.jpg
 
 <p align="justify"> Além deste conhecimento você também foi apresentado a uma das melhores ferramentas utilizadas por profissionais no setor de eletrônica, o LogiSIM, com isso você está preparado para projetar e simular qualquer lógica digital.</p>
 
-<p> Baixar LogiSIM: <a href="https://www.cburch.com/logisim/index.html"><i>LogiSIM</i></a></p>
+<p> Baixar: <a href="https://sourceforge.net/projects/circuit/"><i>LogiSIM</i></a></p>
 
 
 
