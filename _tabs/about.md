@@ -6,9 +6,9 @@ order: 4
 
 <p align="justify"> Sou apaixonado por tecnologia! Meu primeiro contato com computadores ocorreu aos meus sete anos, e desde então, tenho explorado esse incrível universo. Sou fascinado pelas oportunidades que a tecnologia oferece às pessoas e pela forma como ela simplifica nossas vidas. Meu sonho é viajar pelo mundo, compartilhando conhecimento e acumulando experiências únicas.</p>
 
-<p align="justify"> Acredito firmemente que o conhecimento deve ser acessível a todos, e é por isso que criei a página <a href="https://www.instagram.com/decryptsec/"><i>Decrypt Security</i></a>. Nela, ofereço conteúdo de alta qualidade gratuitamente, com o objetivo de introduzir mais pessoas ao vasto campo da segurança da informação. A página contém uma riqueza de recursos, incluindo repositórios, tutoriais e guias para orientar aqueles que estão trilhando o caminho da segurança cibernética. Minha paixão por aprender coisas novas, trabalhar em equipe e buscar novas experiências me motiva a dedicar meu tempo aos estudos, aprimorando minhas habilidades como pentester e engenheiro reverso a cada dia.</p>
+<p align="justify"> Acredito firmemente que o conhecimento deve ser acessível a todos, e é por isso que criei a página <a href="https://www.instagram.com/decryptsec/"><i>Decrypt Security</i></a>. Nela, ofereço conteúdo de alta qualidade gratuitamente, com o objetivo de introduzir mais pessoas ao vasto campo da segurança da informação. A página contém uma riqueza de recursos, incluindo repositórios, tutoriais e guias para orientar aqueles que estão trilhando este caminho. Minha paixão por aprender coisas novas, trabalhar em equipe e buscar novas experiências me motiva a dedicar meu tempo aos estudos, aprimorando minhas habilidades como pentester e engenheiro reverso.</p>
 
-<p align="justify"> Além disso, sou um dos fundadores da comunidade <a href="https://www.instagram.com/lowlevelclub/"><i>Low Level Club</i></a> no Discord, junto com cinco amigos. Nossa comunidade é um espaço dedicado a estudantes que desejam se especializar em programação de baixo nível.</p>
+<p align="justify"> Além disso, sou um dos fundadores da comunidade <a href="https://www.instagram.com/lowlevelclub/"><i>Low Level Club</i></a> no Discord, junto com outros amigos. Nossa comunidade é um espaço dedicado a estudantes que desejam se especializar em programação de baixo nível e engenharia reversa.</p>
 
 <p align="justify">Adoro trocar ideias e conhecimento, e estou sempre disposto a aprender algo novo enquanto tomamos um café juntos. Fique à vontade para entrar em contato comigo pelo e-mail: <a href="mailto:h4ckthreat@gmail.com"><i>h4ckthreat@gmail.com</i></a></p>
 
@@ -31,9 +31,9 @@ Ampla carreira baseada em sólidos conhecimentos técnicos nas principais tecnol
 
 - Sistemas de prevenção de intrusão (IPS)
 - Sistemas de detecção de intrusão (IDS)
-- Sistemas operacionais Windows, Linux e Mac OS X
+- Sistemas operacionais Windows, Linux e macOS X
 - Implantação, administração e gerenciamento de redes de computadores
-- Implantação, administração e gerenciamento de servidores Windows, Linux e Mac OS X
+- Implantação, administração e gerenciamento de servidores Windows, Linux e macOS X
 - Implementação, administração e gerenciamento de sistemas de bancos de dados
 - Montagem e manutenção de microcomputadores
 - Desenvolvimento web com HTML, CSS e Javascript
