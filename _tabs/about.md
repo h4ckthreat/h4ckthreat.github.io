@@ -15,9 +15,9 @@ order: 4
 <p align="justify"> Como pesquisador de segurança e vulnerabilidades de sistemas, tenho uma vasta experiência na área de tecnologia da informação. Atualmente, meu foco principal está na Segurança da Informação Ofensiva.</p>
 
 - Análise forense de redes e sistemas
-- Auditoria e testes de invasão em redes e sistemas
-- Auditoria e testes de invasão em redes sem fio
-- Auditoria e testes de invasão em aplicações web
+- Auditoria e testes de segurança em redes e sistemas
+- Auditoria e testes de segurança em redes sem fio
+- Auditoria e testes de segurança em aplicações web
 - Análise e desenvolvimento de exploits
 - Segurança da informação e gestão de riscos
 - Inteligência de ameaças cibernéticas
