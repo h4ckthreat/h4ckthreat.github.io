@@ -37,7 +37,7 @@ Ampla carreira baseada em sólidos conhecimentos técnicos nas principais tecnol
 - Implementação, administração e gerenciamento de sistemas de bancos de dados
 - Implementação administração e gerenciamento de firewalls
 - Montagem e manutenção de microcomputadores
-- Desenvolvimento de aplicações web
+- Desenvolvimento de aplicações we
 
 Linguagens e Tecnologias:
   
