@@ -48,4 +48,4 @@ Tudo bem, mas o que tudo isso quer dizer? O que fazer agora?
 
 <p align="justify"> Os fabricantes trabalham constantemente em atualizações e correções, tudo visando à diminuição de invasões. Acima de tudo, elas são importantes porque os Malwares normalmente estão habituados com as seguranças antigas, e não com as atualizadas. Portanto, estar sempre em dia também dificulta muito o processo de ataque.</p>
 
-<p align="justify"> Essas três boas práticas já fazem uma completa diferença. Mesmo assim, não deixe jamais de ter uma empresa em quem confiar; faz toda a diferença</p>
+<p align="justify"> Essas três boas práticas já fazem uma completa diferença. Mesmo assim, não deixe jamais de ter uma empresa em quem confiar; faz toda a diferença.</p>
