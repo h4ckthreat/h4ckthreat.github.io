@@ -1,7 +1,7 @@
 ---
 title: Mitigação de ataque DDoS
 date: 2023-10-11 14:30:00 +0800
-categories: [h4ckthreat, Privacidade Digital]
+categories: [r0daemon, Privacidade Digital]
 tags: [Privacidade Digital, DDoS] # TAG names should always be lowercase
 image: /assets/img/posts/ddos.jpg
 ---
