@@ -23,29 +23,29 @@ title: h4ckthreat # the main title
 tagline:  Security Researcher. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  h4ckthreat - Pesquisador de segurança e vulnerabilidades de sistemas.
+  r0daemon - Pesquisador de segurança e vulnerabilidades de sistemas.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://blog.h4ckthreat.com"
+url: "https://blog.r0daemon.com"
 
 github:
-  username: h4ckthreat # change to your github username
+  username: r0daemon # change to your github username
 
 twitter:
-  username: h4ckthreat # change to your twitter username
+  username: r0daemon # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: h4ckthreat
-  email: h4ckthreat@gmail.com # change to your email address
+  name: r0daemon
+  email: r0daemon@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # https://twitter.com/h4ckthreat # change to your twitter homepage
     # https://github.com/h4ckthreat # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-     - https://www.linkedin.com/in/h4ckthreat
+     - https://www.linkedin.com/in/jadsonlsouza
 
 google_site_verification: # fill in to your verification string
 
