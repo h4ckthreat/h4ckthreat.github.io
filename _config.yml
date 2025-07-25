@@ -20,7 +20,7 @@ timezone: America/Manaus
 
 title: r0daemon # the main title
 
-tagline:  Security Researcher. # it will display as the sub-title
+tagline: Security Researcher. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   r0daemon - Pesquisador de segurança e vulnerabilidades de sistemas.
