@@ -20,7 +20,7 @@ timezone: America/Manaus
 
 title: h4ckthreat # the main title
 
-tagline: Offensive Security #  it will display as the sub-title
+tagline: Offensive Security. #  it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   h4ckthreat - Pesquisador de segurança e vulnerabilidades de sistemas.
