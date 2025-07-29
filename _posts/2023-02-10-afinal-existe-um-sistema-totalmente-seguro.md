@@ -1,7 +1,7 @@
 ---
 title: Afinal, existe um sistema 100% seguro ?
 date: 2023-02-06 14:30:00 +0800
-categories: [r0daemon, Privacidade Digital]
+categories: [h4ckthreat, Privacidade Digital]
 tags: [Privacidade Digital] # TAG names should always be lowercase
 image: /assets/img/posts/sistema-seguro.jpg
 ---
