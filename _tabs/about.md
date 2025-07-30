@@ -10,7 +10,7 @@ order: 4
 
 <p align="justify">Além disso, sou um dos fundadores da comunidade <a href="https://www.instagram.com/lowlevelclub/"><i>Low Level Club</i></a> no Discord, junto com cinco amigos. Nossa comunidade é um espaço dedicado a estudantes que desejam se especializar em programação de baixo nível.</p>
 
-<p align="justify">Adoro trocar ideias e conhecimento, e estou sempre disposto a aprender algo novo enquanto tomamos um café juntos. Fique à vontade para entrar em contato comigo pelo e-mail: <a href="mailto:h4ckthreat@gmail.com"><i>h4ckthreat@gmail.com</i></a></p>
+<p align="justify">Adoro trocar ideias e conhecimentos, e estou sempre disposto a aprender algo novo enquanto tomamos um café juntos. Fique à vontade para entrar em contato comigo pelo e-mail: <a href="mailto:h4ckthreat@gmail.com"><i>h4ckthreat@gmail.com</i></a></p>
 
 <p align="justify">Sou especialista em segurança ofensiva, com foco em Red Team, desenvolvimento de exploits e engenharia reversa em ambientes Windows. Atuo na criação de payloads stealth, evasão de EDRs e injeção avançada de código, com domínio profundo de Windows Internals tanto em nível Userland quanto Kernel-mode.</p>
 
