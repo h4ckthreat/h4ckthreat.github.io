@@ -1,7 +1,7 @@
 ---
 title: 17 Equações que mudaram o mundo
 date: 2024-05-01 12:30:00 +0800
-categories: [r0daemon, Matemática]
+categories: [h4ckthreat, Matemática]
 tags: [Matemática, Cálculo] # TAG names should always be lowercase
 image: /assets/img/posts/17-equacoes.jpg
 

@@ -18,27 +18,27 @@ timezone: America/Manaus
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: r0daemon # the main title
+title: h4ckthreat # the main title
 
-tagline: #  it will display as the sub-title
+tagline: Offensive Security isn’t intrusion, it’s real risk validation. #  it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  r0daemon - Pesquisador de segurança e vulnerabilidades de sistemas.
+  h4ckthreat - Pesquisador de segurança e vulnerabilidades de sistemas.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://blog.r0daemon.com"
+url: "https://blog.h4ckthreat.com"
 
 github:
-  username: r0daemon # change to your github username
+  username: h4ckthreat # change to your github username
 
 twitter:
-  username: r0daemon # change to your twitter username
+  username: h4ckthreat # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: r0daemon
-  email: r0daemon@proton.me # change to your email address
+  name: h4ckthreat
+  email: h4ckthreat@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # https://twitter.com/h4ckthreat # change to your twitter homepage
