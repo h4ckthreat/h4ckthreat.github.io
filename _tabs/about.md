@@ -123,5 +123,6 @@ order: 4
 ![image](/assets/img/about/h4ckthreat.jpg)
 
 > 🧠 Minha filosofia de vida é a busca incansável de entender como as coisas funcionam.
-> 🛡 Offensive Security isn’t intrusion, it’s real risk validation.
+> 
+> Offensive Security isn’t intrusion, it’s real risk validation.
 
