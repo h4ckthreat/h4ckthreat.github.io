@@ -111,6 +111,9 @@ order: 4
         <li>
           Computer Forensics
         </li>
+         <li>
+          Hardware Hacking
+         </li>
 </ul>
 
 <p align="justify"> Jamais considere seus estudos como uma obrigação, mas como uma oportunidade invejável para aprender a conhecer a beleza libertadora do intelecto para seu próprio prazer pessoal e para proveito da comunidade à qual seu futuro trabalho pertencer.</p>
@@ -120,4 +123,5 @@ order: 4
 ![image](/assets/img/about/h4ckthreat.jpg)
 
 > 🧠 Minha filosofia de vida é a busca incansável de entender como as coisas funcionam.
+> 🛡 Offensive Security isn’t intrusion, it’s real risk validation.
 
