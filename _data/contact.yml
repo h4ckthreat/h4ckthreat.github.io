@@ -11,8 +11,8 @@
 # -
 
 -
-#  type: twitter
-#  icon: 'fab fa-twitter'
+  type: twitter
+  icon: 'fab fa-twitter'
 
 -
   type: email
