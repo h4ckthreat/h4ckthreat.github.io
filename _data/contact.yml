@@ -7,12 +7,14 @@
 -
  type: linkedin
  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
- url:  'https://www.linkedin.com/in/jadsonlsouza/'                  # Fill with your Linkedin homepage
+ url:  'https://www.linkedin.com/in/jadsonlsouza'                  # Fill with your Linkedin homepage
 # -
 
 -
   type: twitter
   icon: 'fab fa-twitter'
+  url:  'https://www.twitter.com/jadsonlsouza'                  # Fill with your twitter homepage
+# -
 
 -
   type: email
