@@ -7,12 +7,16 @@
 - type: github
   icon: "fab fa-github"
   
-  # - type: twitter
+# - type: twitter
 #  icon: "fab fa-twitter"
   
 - type: youtube
   icon: "fab fa-youtube"   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.youtube.com/@h4ckthreat'    # Fill with your Linkedin homepage
+  url:  'https://www.youtube.com/@h4ckthreat'                       # Fill with your youtube homepage
+
+- type: instagram
+  icon: "fab fa-instagram"  # icons powered by <https://fontawesome.com/>
+  url:  'https://www.instagram.com/h4ckthreat/'                     # Fill with your instagram homepage
     
 - type: email
   icon: "fas fa-envelope"
