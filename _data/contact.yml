@@ -8,8 +8,7 @@
   url:  'https://www.linkedin.com/in/jadsonlsouza'                  # Fill with your Linkedin homepage
 
 - type: youtube
-  icon: 'fab fa-youtube'   # icons powered by <https://fontawesome.com/>
-  url: 'https://www.youtube.com/@h4ckthreat'   # Fill with your YouTube channel URL
+  icon: "fab fa-youtube"   # icons powered by <https://fontawesome.com/>
   
 - type: twitter
   icon: "fab fa-twitter"
