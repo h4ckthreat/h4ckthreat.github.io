@@ -31,6 +31,9 @@ url: https://h4ckthreat.github.io/
 github:
   username: h4ckthreat # change to your github username
 
+instagram:
+  username: h4ckthreat # change to your instagram username
+
 # twitter:
   # username: h4ckthreat # change to your twitter username
 
@@ -46,6 +49,7 @@ social:
     # The first element serves as the copyright owner's link
     - https://www.linkedin.com/in/jadsonlsouza # change to your linkedin homepage
     - https://github.com/h4ckthreat # change to your github homepage
+    - https://www.instagram.com/h4ckthreat # change to your instagram homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://twitter.com/h4ckthreat # change to your twitter homepage
