@@ -1,7 +1,53 @@
 <script src="https://utteranc.es/client.js"
         repo="{{ site.comments.utterances.repo }}"
         issue-term="{{ site.comments.utterances.issue_term }}"
-        theme="preferred-color-scheme"
+        theme="github-light"
         crossorigin="anonymous"
         async>
+</script>
+
+<script>
+(function () {
+  const origin = "https://utteranc.es";
+  const iframeSelector = "iframe.utterances-frame";
+
+  function getTheme() {
+    return document.documentElement.getAttribute("data-mode") === "dark"
+      ? "github-dark"
+      : "github-light";
+  }
+
+  function applyTheme() {
+    const iframe = document.querySelector(iframeSelector);
+    if (!iframe || !iframe.contentWindow) return;
+
+    iframe.contentWindow.postMessage(
+      {
+        type: "set-theme",
+        theme: getTheme()
+      },
+      origin
+    );
+  }
+
+  // espera o iframe existir
+  const interval = setInterval(() => {
+    const iframe = document.querySelector(iframeSelector);
+
+    if (iframe && iframe.contentWindow) {
+      applyTheme();
+      clearInterval(interval);
+    }
+  }, 300);
+
+  // detecta mudança de tema do Chirpy
+  const observer = new MutationObserver(() => {
+    applyTheme();
+  });
+
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-mode"]
+  });
+})();
 </script>
