@@ -1,20 +1,13 @@
-{% assign enable_toc = false %}
-{% if site.toc and page.toc %}
-  {% if page.content contains '<h2' or page.content contains '<h3' %}
-    {% assign enable_toc = true %}
-  {% endif %}
-{% endif %}
+{% if include.html %}
+  {% assign headings = include.html | split: '<h2' %}
 
-{% if enable_toc %}
-  <div id="toc-wrapper" class="ps-0 pe-4 mb-5">
+  <ul class="toc">
+    {% for h in headings offset: 1 %}
+      {% if h contains '</h2>' %}
+        {% assign text = h | split: '>' | last | split: '</h2>' | first %}
 
-    <div class="panel-heading ps-3 pt-2 mb-2">
-      {{ site.data.locales[include.lang].panel.toc }}
-    </div>
-
-    <nav id="toc">
-      {% include toc.html html=content sanitize=true class="toc" %}
-    </nav>
-
-  </div>
+        <li>{{ text }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 {% endif %}
