@@ -1,59 +1,7 @@
 <script src="https://utteranc.es/client.js"
         repo="{{ site.comments.utterances.repo }}"
         issue-term="{{ site.comments.utterances.issue_term }}"
-        theme="github-light"
+        theme="github-dark"
         crossorigin="anonymous"
         async>
-</script>
-
-<script>
-(function () {
-  const origin = "https://utteranc.es";
-  const iframeSelector = "iframe.utterances-frame";
-
-  function getTheme() {
-    return document.documentElement.getAttribute("data-mode") === "dark"
-      ? "github-dark"
-      : "github-light";
-  }
-
-  function applyTheme() {
-    const iframe = document.querySelector(iframeSelector);
-    if (!iframe || !iframe.contentWindow) return false;
-
-    iframe.contentWindow.postMessage(
-      { type: "set-theme", theme: getTheme() },
-      origin
-    );
-
-    return true;
-  }
-
-  // espera REAL o iframe existir (sem quebrar render)
-  function waitForIframe() {
-    let tries = 0;
-
-    const timer = setInterval(() => {
-      const ok = applyTheme();
-
-      tries++;
-      if (ok || tries > 40) {
-        clearInterval(timer);
-      }
-    }, 250);
-  }
-
-  document.addEventListener("DOMContentLoaded", waitForIframe);
-
-  // sync de tema sem quebrar iframe
-  const observer = new MutationObserver(() => {
-    setTimeout(applyTheme, 50);
-  });
-
-  observer.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ["data-mode"]
-  });
-
-})();
 </script>
