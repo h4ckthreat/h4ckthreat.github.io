@@ -1,23 +1,12 @@
-<!-- https://utteranc.es/ -->
-<script src="https://utteranc.es/client.js"
-        repo="{{ site.comments.utterances.repo }}"
-        issue-term="{{ site.comments.utterances.issue_term }}"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
-
 <script>
 (function () {
   const origin = "https://utteranc.es";
   const iframeSelector = "iframe.utterances-frame";
 
   function getTheme() {
-    const isDark =
-      document.documentElement.getAttribute("data-mode") === "dark" ||
-      window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-    return isDark ? "github-dark" : "github-light";
+    return document.documentElement.getAttribute("data-mode") === "dark"
+      ? "github-dark"
+      : "github-light";
   }
 
   function setTheme() {
@@ -33,21 +22,31 @@
     );
   }
 
-  document.addEventListener("DOMContentLoaded", setTheme);
+  function waitForIframeAndSync() {
+    let tries = 0;
 
-  window.addEventListener("message", function (event) {
-    if (event.origin !== origin) return;
+    const interval = setInterval(() => {
+      const iframe = document.querySelector(iframeSelector);
+
+      if (iframe && iframe.contentWindow) {
+        setTheme();
+        clearInterval(interval);
+      }
+
+      if (++tries > 20) clearInterval(interval);
+    }, 250);
+  }
+
+  document.addEventListener("DOMContentLoaded", waitForIframeAndSync);
+
+  // detecta mudança REAL do Chirpy
+  const observer = new MutationObserver(() => {
     setTheme();
   });
 
-  const observer = new MutationObserver(() => {
-    const iframe = document.querySelector(iframeSelector);
-    if (iframe && iframe.contentWindow) {
-      setTheme();
-      observer.disconnect();
-    }
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-mode"]
   });
-
-  observer.observe(document.body, { childList: true, subtree: true });
 })();
 </script>
