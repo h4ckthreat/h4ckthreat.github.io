@@ -98,7 +98,7 @@ comments:
   utterances:
     repo: h4ckthreat/h4ckthreat.github.io # <gh-username>/<repo>
     issue_term: pathname # < url | pathname | title | ...>
-    theme: github-dark
+    theme: preferred-color-scheme
     
   # Giscus options › https://giscus.app
   giscus:
