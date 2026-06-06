@@ -39,7 +39,15 @@
     if (event.origin !== origin) return;
     setTheme();
   });
-})();
-  
-</script>
 
+  const observer = new MutationObserver(() => {
+    const iframe = document.querySelector(iframeSelector);
+    if (iframe && iframe.contentWindow) {
+      setTheme();
+      observer.disconnect();
+    }
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
+})();
+</script>
