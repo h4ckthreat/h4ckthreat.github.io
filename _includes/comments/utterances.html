@@ -1,45 +1,7 @@
-<!-- https://utteranc.es/ -->
 <script src="https://utteranc.es/client.js"
         repo="{{ site.comments.utterances.repo }}"
         issue-term="{{ site.comments.utterances.issue_term }}"
-        theme="github-light"
+        theme="preferred-color-scheme"
         crossorigin="anonymous"
         async>
 </script>
-
-<script>
-(function () {
-  const origin = "https://utteranc.es";
-  const iframeSelector = "iframe.utterances-frame";
-
-  function getTheme() {
-    const isDark =
-      document.documentElement.getAttribute("data-mode") === "dark" ||
-      window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-    return isDark ? "github-dark" : "github-light";
-  }
-
-  function setTheme() {
-    const iframe = document.querySelector(iframeSelector);
-    if (!iframe || !iframe.contentWindow) return;
-
-    iframe.contentWindow.postMessage(
-      {
-        type: "set-theme",
-        theme: getTheme()
-      },
-      origin
-    );
-  }
-
-  document.addEventListener("DOMContentLoaded", setTheme);
-
-  window.addEventListener("message", function (event) {
-    if (event.origin !== origin) return;
-    setTheme();
-  });
-})();
-  
-</script>
-
