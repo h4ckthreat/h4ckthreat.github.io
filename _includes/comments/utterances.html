@@ -1,12 +1,23 @@
+<!-- https://utteranc.es/ -->
+<script src="https://utteranc.es/client.js"
+        repo="{{ site.comments.utterances.repo }}"
+        issue-term="{{ site.comments.utterances.issue_term }}"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
 <script>
 (function () {
   const origin = "https://utteranc.es";
   const iframeSelector = "iframe.utterances-frame";
 
   function getTheme() {
-    return document.documentElement.getAttribute("data-mode") === "dark"
-      ? "github-dark"
-      : "github-light";
+    const isDark =
+      document.documentElement.getAttribute("data-mode") === "dark" ||
+      window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    return isDark ? "github-dark" : "github-light";
   }
 
   function setTheme() {
@@ -22,31 +33,13 @@
     );
   }
 
-  function waitForIframeAndSync() {
-    let tries = 0;
+  document.addEventListener("DOMContentLoaded", setTheme);
 
-    const interval = setInterval(() => {
-      const iframe = document.querySelector(iframeSelector);
-
-      if (iframe && iframe.contentWindow) {
-        setTheme();
-        clearInterval(interval);
-      }
-
-      if (++tries > 20) clearInterval(interval);
-    }, 250);
-  }
-
-  document.addEventListener("DOMContentLoaded", waitForIframeAndSync);
-
-  // detecta mudança REAL do Chirpy
-  const observer = new MutationObserver(() => {
+  window.addEventListener("message", function (event) {
+    if (event.origin !== origin) return;
     setTheme();
   });
-
-  observer.observe(document.documentElement, {
-    attributes: true,
-    attributeFilter: ["data-mode"]
-  });
 })();
+  
 </script>
+
