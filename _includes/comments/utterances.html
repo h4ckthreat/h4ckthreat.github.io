@@ -5,3 +5,52 @@
         crossorigin="anonymous"
         async>
 </script>
+
+<script>
+(function () {
+  const origin = "https://utteranc.es";
+  const iframeSelector = "iframe.utterances-frame";
+
+  function getTheme() {
+    return document.documentElement.getAttribute("data-mode") === "dark"
+      ? "github-dark"
+      : "github-light";
+  }
+
+  function applyTheme() {
+    const iframe = document.querySelector(iframeSelector);
+    if (!iframe || !iframe.contentWindow) return;
+
+    iframe.contentWindow.postMessage(
+      {
+        type: "set-theme",
+        theme: getTheme()
+      },
+      origin
+    );
+  }
+
+  // debounce (evita quebrar o iframe)
+  let timeout;
+
+  function scheduleUpdate() {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      applyTheme();
+    }, 120);
+  }
+
+  // detecta mudança do Chirpy
+  const observer = new MutationObserver(scheduleUpdate);
+
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-mode"]
+  });
+
+  // sincroniza ao carregar
+  window.addEventListener("DOMContentLoaded", () => {
+    setTimeout(applyTheme, 800);
+  });
+})();
+</script>
