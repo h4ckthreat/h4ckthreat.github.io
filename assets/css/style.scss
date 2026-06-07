@@ -7,7 +7,7 @@ a.post-tag {
     transition: color 0.05s linear !important;
 }
 
-/* BASE */
+/* BASE DO MENU */
 #sidebar .nav-link,
 #sidebar a {
     transition: all 0.15s ease;
@@ -15,21 +15,22 @@ a.post-tag {
     position: relative;
 }
 
-/* HOVER */
+/* HOVER (efeito branco brilhante) */
 #sidebar .nav-link:hover,
 #sidebar a:hover {
     color: #ffffff !important;
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
-/* ACTIVE (FORÇA MESMO EFEITO DO HOVER SEM PRECISAR PASSAR MOUSE) */
+/* ITEM ATIVO = MESMO EFEITO DO HOVER (DESTAQUE PERMANENTE) */
+#sidebar .nav-item.active .nav-link,
 #sidebar .nav-link.active,
 #sidebar a.active {
     color: #ffffff !important;
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
-/* LINHA BASE */
+/* LINHA LATERAL BASE */
 #sidebar .nav-link::before,
 #sidebar a::before {
     content: "";
@@ -42,16 +43,17 @@ a.post-tag {
     transition: all 0.15s ease;
 }
 
-/* HOVER LINHA */
+/* HOVER ATIVA LINHA */
 #sidebar .nav-link:hover::before,
 #sidebar a:hover::before {
     background: #ffffff;
     box-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
-/* ACTIVE LINHA (PERMANENTE IGUAL HOVER) */
+/* LINHA DO ITEM ATIVO (PERMANENTE) */
+#sidebar .nav-item.active .nav-link::before,
 #sidebar .nav-link.active::before,
 #sidebar a.active::before {
-    background: #ffffff;
-    box-shadow: 0 0 8px rgba(255,255,255,0.8);
+    background: #ffffff !important;
+    box-shadow: 0 0 8px rgba(255,255,255,0.8) !important;
 }
