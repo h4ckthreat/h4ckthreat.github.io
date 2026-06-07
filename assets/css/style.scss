@@ -1,93 +1,76 @@
----
----
+/* ============================= */
+/* MENU SIDEBAR - ESTILO ATIVO   */
+/* ============================= */
 
-@import '{{ site.theme }}';
-
-/* append your custom style below */
-::selection {
-    background-color: #F074C0; /* Cor de fundo para a seleção de texto */
-    color: #000000; /* Cor do texto selecionado */
-}
-
-#sidebar .site-subtitle {
-    font-size: 100%;
-    color: var(--sidebar-muted-color);
-    margin-top: .25rem;
-    margin-left: -1.5rem;
-    word-spacing: 1px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
-}
-
-.post-tag,
-a.post-tag {
-    transition: color 0.05s linear !important;
-}
-
-// Base do menu (normal + hover)
 #sidebar .nav-link,
-#sidebar a {
-    transition: all 0.15s ease;
-    color: #cfcfcf !important;
+#sidebar .sidebar-nav a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    transition: all 0.25s ease;
+    color: #cfcfcf;
+}
+
+/* HOVER */
+#sidebar .nav-link:hover,
+#sidebar .sidebar-nav a:hover {
+    background: rgba(255, 255, 255, 0.04);
+    color: #ffffff;
+}
+
+/* ============================= */
+/* ITEM ATIVO (PRINCIPAL)        */
+/* ============================= */
+
+/* Caso o tema use .active no link */
+#sidebar .nav-link.active,
+#sidebar .sidebar-nav a.active {
+    background: rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 12px;
+
+    box-shadow: 0 0 18px rgba(240, 116, 192, 0.18);
+}
+
+/* Barra lateral rosa */
+#sidebar .nav-link.active::before,
+#sidebar .sidebar-nav a.active::before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: 15%;
+    height: 70%;
+    width: 3px;
+    background: #F074C0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #F074C0;
+}
+
+/* ============================= */
+/* FALLBACK (caso active esteja no LI) */
+/* ============================= */
+
+#sidebar .active > a {
+    background: rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 12px;
+    box-shadow: 0 0 18px rgba(240, 116, 192, 0.18);
     position: relative;
 }
 
-// Hover branco brilhante
-#sidebar .nav-link:hover,
-#sidebar a:hover {
-    color: #ffffff !important;
-    text-shadow: 0 0 10px rgba(255,255,255,0.9);
-}
-
-/* Item ativo (menu selecionado) */
-#sidebar .nav-link.active,
-#sidebar a.active,
-#sidebar .nav-link[aria-current="page"],
-#sidebar a[aria-current="page"] {
-    color: #ffffff !important;
-    text-shadow: 0 0 12px rgba(255,255,255,1);
-}
-
-// Linha lateral “hacker indicator”
-#sidebar .nav-link::before {
+#sidebar .active > a::before {
     content: "";
     position: absolute;
-    left: -10px;
-    top: 20%;
-    height: 60%;
-    width: 2px;
-    background: transparent;
-    transition: all 0.15s ease;
-}
-
-// Hover ativa a linha
-#sidebar .nav-link:hover::before {
-    background: #ffffff;
-    box-shadow: 0 0 8px rgba(255,255,255,0.8);
-}
-
-/* ITEM ATIVO estilo igual imagem (pill + destaque) */
-#sidebar .nav-link.active,
-#sidebar a.active,
-#sidebar .nav-link[aria-current="page"],
-#sidebar a[aria-current="page"] {
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 10px;
-    padding-left: 18px;
-    padding-right: 10px;
-}
-
-/* deixa o botão com tamanho consistente */
-#sidebar .nav-link {
-    padding: 10px 12px;
-    border-radius: 10px;
-}
-
-/* Linha ativa permanente */
-#sidebar .nav-link.active::before,
-#sidebar .nav-link[aria-current="page"]::before {
-    background: #ffffff;
-    box-shadow: 0 0 10px rgba(255,255,255,1);
+    left: -8px;
+    top: 15%;
+    height: 70%;
+    width: 3px;
+    background: #F074C0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #F074C0;
 }
