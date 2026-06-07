@@ -22,12 +22,6 @@ a.post-tag {
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
-// Item ativo (menu selecionado)
-#sidebar .nav-link.active,
-#sidebar a.active {
-    color: #ffffff !important;
-    text-shadow: 0 0 12px rgba(255,255,255,1);
-}
 
 // Linha lateral “hacker indicator”
 #sidebar .nav-link::before {
@@ -47,11 +41,6 @@ a.post-tag {
     box-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
-// Linha ativa permanente
-//#sidebar .nav-link.active::before {
-    //background: #ffffff;
-    //box-shadow: 0 0 10px rgba(255,255,255,1);
-//}
 
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
 //#back-to-top:hover,
