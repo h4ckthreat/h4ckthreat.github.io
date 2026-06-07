@@ -72,3 +72,27 @@ a.post-tag {
 .top-link:hover svg {
     filter: drop-shadow(0 0 6px rgba(255,255,255,0.9));
 }
+
+
+
+
+
+
+.post-preview::before,
+.post-preview::after {
+    background: transparent !important;
+    opacity: 0 !important;
+    animation: none !important;
+    transform: none !important;
+}
+
+/* mata qualquer shimmer global */
+@keyframes shine {
+    from { opacity: 0; transform: none; }
+    to { opacity: 0; transform: none; }
+}
+
+@keyframes shimmer {
+    from { opacity: 0; transform: none; }
+    to { opacity: 0; transform: none; }
+}
