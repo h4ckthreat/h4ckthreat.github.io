@@ -26,3 +26,8 @@ a.post-tag {
     transition: color 0.05s linear !important;
 }
 
+#sidebar .nav-link,
+#sidebar a {
+    transition: none !important;
+}
+
