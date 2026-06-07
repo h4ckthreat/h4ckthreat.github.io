@@ -1,6 +1,4 @@
 ---
-layout: post
-toc: true
 title: A mentalidade de um hacker
 date: 2023-01-27 14:30:00 +0800
 categories: [h4ckthreat, Hacking]
