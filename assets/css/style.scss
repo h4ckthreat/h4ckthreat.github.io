@@ -19,7 +19,6 @@
     color: var(--sidebar-muted-color);
     margin-top: .25rem;
     margin-left: -1.5rem;
-    word-spacing: 1px;
     user-select: none;
 }
 
@@ -32,59 +31,49 @@ a.post-tag {
 }
 
 /* =========================
-   SIDEBAR MENU BASE
+   SIDEBAR BASE
 ========================= */
 #sidebar .nav-link {
     position: relative;
     transition: all 0.15s ease;
     color: #cfcfcf !important;
+    border-radius: 10px;
 }
 
 /* =========================
    HOVER MENU
 ========================= */
 #sidebar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.04);
     color: #ffffff !important;
+    text-shadow: 0 0 8px rgba(255,255,255,0.8);
+}
+
+/* =========================
+   MENU ATIVO (ESTILO PILL)
+========================= */
+#sidebar .nav-link.active,
+#sidebar .nav-link[aria-current="page"] {
+    position: relative;
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
 /* =========================
-   MENU ATIVO (CORRETO)
-========================= */
-#sidebar .nav-link.active,
-#sidebar .nav-link[aria-current="page"] {
-    color: #ffffff !important;
-    text-shadow: 0 0 12px rgba(255,255,255,1);
-}
-
-/* =========================
-   LINHA LATERAL BASE
-========================= */
-#sidebar .nav-link::before {
-    content: "";
-    position: absolute;
-    left: -10px;
-    top: 20%;
-    height: 60%;
-    width: 2px;
-    background: transparent;
-    transition: all 0.15s ease;
-}
-
-/* =========================
-   LINHA NO HOVER
-========================= */
-#sidebar .nav-link:hover::before {
-    background: #ffffff;
-    box-shadow: 0 0 8px rgba(255,255,255,0.8);
-}
-
-/* =========================
-   LINHA NO ATIVO
+   BARRA LATERAL ATIVA
 ========================= */
 #sidebar .nav-link.active::before,
 #sidebar .nav-link[aria-current="page"]::before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: 15%;
+    height: 70%;
+    width: 3px;
     background: #ffffff;
+    border-radius: 2px;
     box-shadow: 0 0 12px rgba(255,255,255,1);
 }
 
