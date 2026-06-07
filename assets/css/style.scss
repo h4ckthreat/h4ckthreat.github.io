@@ -7,13 +7,13 @@ a.post-tag {
     transition: color 0.05s linear !important;
 }
 
-// Base do menu (normal + hover)
-//#sidebar .nav-link,
-//#sidebar a {
-    //transition: all 0.15s ease;
-    //color: #cfcfcf !important;
-    //position: relative;
-//}
+ //Base do menu (normal + hover)
+#sidebar .nav-link,
+#sidebar a {
+    transition: all 0.15s ease;
+    color: #cfcfcf !important;
+    position: relative;
+}
 
 // Hover branco brilhante
 #sidebar .nav-link:hover,
