@@ -6,33 +6,9 @@ categories: [Estudos, E-mail Spoofing]
 tags: [SMTP, DMARC, DKIM, E-mail Spoofing]
 
 image: "assets/img/posts/spoof.jpg"
-alt: "Pentesting Android"
 ---
 
 ![E-mail Spoofing](assets/img/posts/spoof.jpg)
-
-
-- [Introdução](#introdução)
-- [*E-mail Spoofing*](#e-mail-spoofing)
-	- [Impacto técnico do *e-mail spoofing*](#impacto-técnico-do-e-mail-spoofing)
-	- [Impacto de negócio do *e-mail spoofing*](#impacto-de-negócio-do-e-mail-spoofing)
-- [SPF](#spf)
-	- [Tipos de SPF](#tipos-de-spf)
-	- [Atributos do SPF](#atributos-do-spf)
-- [DKIM](#dkim)
-- [DMARC](#dmarc)
-- [Como um servidor de e-mails interpreta estas regras](#como-um-servidor-de-e-mails-interpreta-estas-regras)
-	- [Ordem de verificação de protocolos](#ordem-de-verificação-de-protocolos)
-- [Como são feitos ataques de *e-mail spoofing*](#como-são-feitos-ataques-de-e-mail-spoofing)
-- [Encontrando possíveis vulnerabilidades de *e-mail spoofing*](#encontrando-possíveis-vulnerabilidades-de-e-mail-spoofing)
-	- [SPF com -all (*hard fail*)](#spf-com--all-hard-fail)
-	- [SPF com ~all (*soft fail*)](#spf-com-all-soft-fail)
-	- [SPF com ?all (*neutral*)](#spf-com-all-neutral)
-	- [Outras configurações que podem levar ao *e-mail spoofing*](#outras-configurações-que-podem-levar-ao-e-mail-spoofing)
-	- [Automatizando a enumeração das configurações](#automatizando-a-enumeração-das-configurações)
-- [Boas práticas para dificultar o *e-mail spoofing*](#boas-práticas-para-dificultar-o-e-mail-spoofing)
-- [Conclusão](#conclusão)
-- [Referências](#referências)
 
 
 ## Introdução
@@ -244,7 +220,7 @@ A checagem destas combinações também foi implementada em uma das ferramentas 
 
 Abaixo um demonstrativo:
 
-![Output da ferramenta](/img/posts/Pasted%20image%2020230106212409.png)
+![Output da ferramenta](/assets/img/posts/spoof.jpg)
 
 ## Boas práticas para dificultar o *e-mail spoofing*
 
