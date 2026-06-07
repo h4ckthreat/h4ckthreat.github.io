@@ -54,24 +54,42 @@ a.post-tag {
 }
 
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
+//#back-to-top:hover,
+//.back-to-top:hover,
+//#topbar a[href="#top"]:hover,
+//.top-link:hover {
+    //color: #ffffff !important;
+    //text-shadow: 0 0 10px rgba(255,255,255,0.9);
+    //transform: translateY(-2px);
+//}
+
+/* SE TIVER ÍCONE DENTRO (SVG ou i) */
+//#back-to-top:hover i,
+//.back-to-top:hover i,
+//.top-link:hover i,
+//#back-to-top:hover svg,
+//.back-to-top:hover svg,
+//.top-link:hover svg {
+    //filter: drop-shadow(0 0 6px rgba(255,255,255,0.9));
+//}
+
+/* BOTÃO VOLTAR AO TOPO - BRILHO COMPLETO */
 #back-to-top:hover,
 .back-to-top:hover,
 #topbar a[href="#top"]:hover,
 .top-link:hover {
     color: #ffffff !important;
-    text-shadow: 0 0 10px rgba(255,255,255,0.9);
-    transform: translateY(-2px);
-}
+    transform: translate3d(0, -5px, 0);
 
-/* SE TIVER ÍCONE DENTRO (SVG ou i) */
-//#back-to-top:hover i,
-//.back-to-top:hover i,
-// .top-link:hover i,
-// #back-to-top:hover svg,
-//.back-to-top:hover svg,
-// .top-link:hover svg {
-    // filter: drop-shadow(0 0 6px rgba(255,255,255,0.9));
-// }
+    /* brilho no botão inteiro */
+    background-color: rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.4),
+        0 0 20px rgba(255, 255, 255, 0.2),
+        0 0 30px rgba(255, 255, 255, 0.15);
+
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
 
 
 /* mata qualquer shimmer global
