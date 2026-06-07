@@ -5,7 +5,7 @@ date: 2026-06-07 01:00:00 -0300
 categories: [Estudos, E-mail Spoofing]
 tags: [SMTP, DMARC, DKIM, E-mail Spoofing]
 
-image: "assets/img/posts/spoof.jpg"
+image: "/assets/img/posts/spoof.jpg"
 ---
 
 ![E-mail Spoofing](/assets/img/posts/spoof.jpg)
