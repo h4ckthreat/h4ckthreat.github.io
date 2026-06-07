@@ -1,54 +1,49 @@
----
----
-
 @import '{{ site.theme }}';
 
-/* append your custom style below */
+/* seleção */
 ::selection {
-    background-color: #F074C0; /* Cor de fundo para a seleção de texto */
-    color: #000000; /* Cor do texto selecionado */
+    background-color: #F074C0;
+    color: #000000;
 }
 
+/* subtitle */
 #sidebar .site-subtitle {
     font-size: 100%;
     color: var(--sidebar-muted-color);
     margin-top: .25rem;
     margin-left: -1.5rem;
-    word-spacing: 1px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
+/* tags */
 .post-tag,
 a.post-tag {
     transition: color 0.05s linear !important;
 }
 
-// Base do menu (normal + hover)
-#sidebar .nav-link,
-#sidebar a {
+/* =========================
+   SIDEBAR MENU
+========================= */
+
+#sidebar .nav-link {
+    position: relative;
     transition: all 0.15s ease;
     color: #cfcfcf !important;
-    position: relative;
 }
 
-// Hover branco brilhante
-#sidebar .nav-link:hover,
-#sidebar a:hover {
+/* hover */
+#sidebar .nav-link:hover {
     color: #ffffff !important;
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
-// Item ativo (menu selecionado)
-#sidebar .nav-link.active,
-#sidebar a.active {
+/* ativo */
+#sidebar .nav-link.active {
     color: #ffffff !important;
     text-shadow: 0 0 12px rgba(255,255,255,1);
 }
 
-// Linha lateral “hacker indicator”
+/* linha lateral base */
 #sidebar .nav-link::before {
     content: "";
     position: absolute;
@@ -60,44 +55,34 @@ a.post-tag {
     transition: all 0.15s ease;
 }
 
-// Hover ativa a linha
+/* hover linha */
 #sidebar .nav-link:hover::before {
     background: #ffffff;
     box-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
-// Linha ativa permanente
+/* ativo linha */
 #sidebar .nav-link.active::before {
     background: #ffffff;
     box-shadow: 0 0 10px rgba(255,255,255,1);
 }
 
-
+/* =========================
+   POSTS
+========================= */
 
 .post-preview a,
 .post-title a,
 .card-title a {
-    transition: none !important;
+    position: relative;
+    transition: color 0.15s ease, text-shadow 0.15s ease;
     color: #cfcfcf !important;
 }
 
+/* hover + ativo visual (mesmo efeito) */
 .post-preview a:hover,
 .post-title a:hover,
 .card-title a:hover {
     color: #ffffff !important;
-    text-shadow: 0 0 10px rgba(255,255,255,0.9);
-}
-
-.post-preview a:hover,
-.post-title a:hover,
-.card-title a:hover {
-    color: #ffffff !important;
-    text-shadow:
-        0 0 6px rgba(255,255,255,0.9),
-        0 0 14px rgba(255,255,255,0.6);
-}
-
-.post-preview:hover {
-    background: rgba(255, 255, 255, 0.03);
-    transition: none !important;
+    text-shadow: 0 0 12px rgba(255,255,255,0.9);
 }
