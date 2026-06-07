@@ -63,6 +63,13 @@ a.post-tag {
     filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
 }
 
+#sidebar .nav-item.active .nav-link,
+#sidebar .nav-link.active {
+    background: transparent !important;
+    color: #cfcfcf !important;
+    text-shadow: none !important;
+}
+
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
 //#back-to-top:hover,
 //.back-to-top:hover,
