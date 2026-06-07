@@ -11,36 +11,39 @@ a.post-tag {
   position: relative;
 }
 
-/* LINHA LATERAL (INICIALMENTE INVISÍVEL) */
+/* REMOVE QUALQUER FUNDO/CAIXA NO HOVER */
+#sidebar .nav-link {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+/* LINHA LATERAL (INVISÍVEL PADRÃO) */
 #sidebar .nav-item::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 20%;
-  height: 60%;
-  width: 3px;
+  top: 22%;
+  height: 56%;
+  width: 2px;
   background: transparent;
   transition: all 0.2s ease-in-out;
-  border-radius: 2px;
 }
 
-/* HOVER - TEXTO BRANCO BRILHANTE */
+/* HOVER: TEXTO BRANCO BRILHANTE */
 #sidebar .nav-item:hover .nav-link {
   color: #ffffff !important;
   text-shadow: 0 0 10px rgba(255,255,255,0.9),
-               0 0 20px rgba(255,255,255,0.6);
+               0 0 18px rgba(255,255,255,0.6);
+  background: transparent !important;
 }
 
-/* HOVER - LINHA BRILHANTE */
+/* HOVER: LINHA BRILHANTE */
 #sidebar .nav-item:hover::before {
   background: #ffffff;
   box-shadow: 0 0 10px rgba(255,255,255,0.9),
-              0 0 18px rgba(255,255,255,0.6);
-}
-
-/* ANIMAÇÃO SUAVE */
-#sidebar .nav-link {
-  transition: all 0.2s ease-in-out;
+              0 0 20px rgba(255,255,255,0.7);
 }
 
 // houver botão
