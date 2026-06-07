@@ -220,7 +220,6 @@ A checagem destas combinações também foi implementada em uma das ferramentas 
 
 Abaixo um demonstrativo:
 
-![Output da ferramenta](assets/img/posts/spoof.jpg)
 
 ## Boas práticas para dificultar o *e-mail spoofing*
 
