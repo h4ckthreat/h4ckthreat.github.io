@@ -3,49 +3,33 @@
 
 @import '{{ site.theme }}';
 
-/* seleção de texto */
-::selection {
-    background-color: #F074C0;
-    color: #000000;
-}
-
-/* subtitle */
-#sidebar .site-subtitle {
-    font-size: 100%;
-    color: var(--sidebar-muted-color);
-    margin-top: .25rem;
-    margin-left: -1.5rem;
-    word-spacing: 1px;
-    user-select: none;
-}
-
-/* tags */
-.post-tag,
 a.post-tag {
     transition: color 0.05s linear !important;
 }
 
-/* =========================
-   BASE DO MENU
-========================= */
-#sidebar .nav-link {
+// Base do menu (normal + hover)
+#sidebar .nav-link,
+#sidebar a {
     transition: all 0.15s ease;
     color: #cfcfcf !important;
     position: relative;
-    border-radius: 10px;
-    padding: 10px 12px;
 }
 
-/* hover (somente visual, sem interferir na barra) */
-#sidebar .nav-link:hover {
+// Hover branco brilhante
+#sidebar .nav-link:hover,
+#sidebar a:hover {
     color: #ffffff !important;
-    background: rgba(255, 255, 255, 0.06);
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
-/* =========================
-   INDICADOR LATERAL (BASE)
-========================= */
+// Item ativo (menu selecionado)
+#sidebar .nav-link.active,
+#sidebar a.active {
+    color: #ffffff !important;
+    text-shadow: 0 0 12px rgba(255,255,255,1);
+}
+
+// Linha lateral “hacker indicator”
 #sidebar .nav-link::before {
     content: "";
     position: absolute;
@@ -54,49 +38,17 @@ a.post-tag {
     height: 60%;
     width: 2px;
     background: transparent;
-    border-radius: 2px;
     transition: all 0.15s ease;
 }
 
-/* =========================
-   ITEM ATIVO
-========================= */
-#sidebar .nav-link.active,
-#sidebar .nav-item.active > .nav-link,
-#sidebar .nav-link[aria-current="page"] {
-    color: #ffffff !important;
-    background: rgba(255, 255, 255, 0.10);
-    text-shadow: 0 0 12px rgba(255,255,255,1);
-}
-
-/* barra fixa do item ativo */
-#sidebar .nav-link.active::before,
-#sidebar .nav-item.active > .nav-link::before,
-#sidebar .nav-link[aria-current="page"]::before {
-    background: #ffffff;
-    box-shadow: 0 0 10px rgba(255,255,255,1);
-}
-
-/* =========================
-   HOVER (APENAS ITENS NÃO ATIVOS)
-========================= */
-#sidebar .nav-link:not(.active):hover::before {
+// Hover ativa a linha
+#sidebar .nav-link:hover::before {
     background: #ffffff;
     box-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
-/* efeito hover sem afetar ativo */
-#sidebar .nav-link:not(.active):hover {
-    background: rgba(255, 255, 255, 0.06);
-}
-
-/* opcional: efeito mais “premium” no ativo */
-#sidebar .nav-link.active::after,
-#sidebar .nav-link[aria-current="page"]::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(255,255,255,0.06);
-    border-radius: 10px;
-    z-index: -1;
+// Linha ativa permanente
+#sidebar .nav-link.active::before {
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(255,255,255,1);
 }
