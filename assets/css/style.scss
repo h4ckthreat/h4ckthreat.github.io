@@ -3,22 +3,6 @@
 
 @import '{{ site.theme }}';
 
-/* seleção de texto */
-::selection {
-    background-color: #F074C0;
-    color: #000000;
-}
-
-/* subtitle */
-#sidebar .site-subtitle {
-    font-size: 100%;
-    color: var(--sidebar-muted-color);
-    margin-top: .25rem;
-    margin-left: -1.5rem;
-    word-spacing: 1px;
-    user-select: none;
-}
-
 /* tags */
 .post-tag,
 a.post-tag {
