@@ -21,3 +21,8 @@
     user-select: none
 }
 
+.post-tag,
+a.post-tag {
+    transition: color 0.05s linear !important;
+}
+
