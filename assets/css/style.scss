@@ -32,36 +32,3 @@ a.post-tag {
     color: #cfcfcf !important;
     position: relative;
 }
-
-#sidebar .nav-link:hover,
-#sidebar a:hover {
-    color: #ffffff !important;
-    text-shadow: 0 0 10px rgba(255,255,255,0.9);
-}
-
-#sidebar .nav-link.active,
-#sidebar a.active {
-    color: #ffffff !important;
-    text-shadow: 0 0 12px rgba(255,255,255,1);
-}
-
-#sidebar .nav-link::before {
-    content: "";
-    position: absolute;
-    left: -10px;
-    top: 20%;
-    height: 60%;
-    width: 2px;
-    background: transparent;
-    transition: all 0.15s ease;
-}
-
-#sidebar .nav-link:hover::before {
-    background: #ffffff;
-    box-shadow: 0 0 8px rgba(255,255,255,0.8);
-}
-
-#sidebar .nav-link.active::before {
-    background: #ffffff;
-    box-shadow: 0 0 10px rgba(255,255,255,1);
-}
