@@ -15,21 +15,13 @@ a.post-tag {
     position: relative;
 }
 
-/* Hover (itens não ativos ou gerais) */
+/* HOVER + ACTIVE = MESMO VISUAL */
 #sidebar .nav-link:hover,
-#sidebar a:hover {
-    color: #ffffff !important;
-    text-shadow: 0 0 8px rgba(255,255,255,0.6);
-}
-
-/* ITEM ATIVO (BRANCO BRILHANTE FIXO) */
+#sidebar a:hover,
 #sidebar .nav-link.active,
 #sidebar a.active {
     color: #ffffff !important;
-    text-shadow: 
-        0 0 6px rgba(255,255,255,0.9),
-        0 0 14px rgba(255,255,255,0.9),
-        0 0 22px rgba(255,255,255,0.7);
+    text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
 /* Linha lateral base */
@@ -45,28 +37,11 @@ a.post-tag {
     transition: all 0.15s ease;
 }
 
-/* Hover ativa linha */
+/* HOVER + ACTIVE = MESMA LINHA */
 #sidebar .nav-link:hover::before,
-#sidebar a:hover::before {
-    background: #ffffff;
-    box-shadow: 0 0 8px rgba(255,255,255,0.6);
-}
-
-/* LINHA DO ITEM ATIVO (fixa e mais forte) */
+#sidebar a:hover::before,
 #sidebar .nav-link.active::before,
 #sidebar a.active::before {
-    background: #ffffff !important;
-    box-shadow: 0 0 14px rgba(255,255,255,0.9) !important;
-    height: 70%;
-    top: 15%;
-}
-
-/* Hover não altera o ativo */
-#sidebar .nav-link.active:hover,
-#sidebar a.active:hover {
-    color: #ffffff !important;
-    text-shadow: 
-        0 0 6px rgba(255,255,255,0.9),
-        0 0 14px rgba(255,255,255,0.9),
-        0 0 22px rgba(255,255,255,0.7);
+    background: #ffffff;
+    box-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
