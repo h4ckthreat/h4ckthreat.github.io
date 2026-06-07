@@ -1,15 +1,16 @@
----
----
-
 @import '{{ site.theme }}';
 
-/* seleção de texto */
+/* =========================
+   SELEÇÃO DE TEXTO
+========================= */
 ::selection {
     background-color: #F074C0;
     color: #000000;
 }
 
-/* subtitle */
+/* =========================
+   SUBTITLE SIDEBAR
+========================= */
 #sidebar .site-subtitle {
     font-size: 100%;
     color: var(--sidebar-muted-color);
@@ -19,7 +20,9 @@
     user-select: none;
 }
 
-/* tags */
+/* =========================
+   TAGS
+========================= */
 .post-tag,
 a.post-tag {
     transition: color 0.05s linear !important;
@@ -29,24 +32,18 @@ a.post-tag {
    BASE DO MENU
 ========================= */
 #sidebar .nav-link {
-    transition: all 0.15s ease;
+    transition: all 0.2s ease;
     color: #cfcfcf !important;
     position: relative;
     border-radius: 10px;
     padding: 10px 12px;
 }
 
-/* hover */
-#sidebar .nav-link:hover {
-    color: #ffffff !important;
-    background: rgba(255, 255, 255, 0.06);
-    text-shadow: 0 0 10px rgba(255,255,255,0.9);
-}
-
 /* =========================
-   ITEM ATIVO (IMPORTANTE)
-   cobre várias formas de "active"
+   ESTADO UNIFICADO
+   (HOVER = ACTIVE VISUAL)
 ========================= */
+#sidebar .nav-link:hover,
 #sidebar .nav-link.active,
 #sidebar .nav-item.active > .nav-link,
 #sidebar .nav-link[aria-current="page"] {
@@ -56,7 +53,7 @@ a.post-tag {
 }
 
 /* =========================
-   BARRA LATERAL (INDICADOR)
+   LINHA LATERAL INDICADOR
 ========================= */
 #sidebar .nav-link::before {
     content: "";
@@ -66,31 +63,35 @@ a.post-tag {
     height: 60%;
     width: 2px;
     background: transparent;
-    transition: all 0.15s ease;
+    transition: all 0.2s ease;
     border-radius: 2px;
 }
 
-/* hover ativa linha */
-#sidebar .nav-link:hover::before {
-    background: #ffffff;
-    box-shadow: 0 0 8px rgba(255,255,255,0.8);
-}
-
-/* ativo permanente */
+/* hover OU ativo = mesma linha */
+#sidebar .nav-link:hover::before,
 #sidebar .nav-link.active::before,
-#sidebar .nav-link[aria-current="page"]::before,
-#sidebar .nav-item.active > .nav-link::before {
+#sidebar .nav-item.active > .nav-link::before,
+#sidebar .nav-link[aria-current="page"]::before {
     background: #ffffff;
     box-shadow: 0 0 10px rgba(255,255,255,1);
 }
 
-/* opcional: efeito mais “UI premium” igual sua imagem */
-#sidebar .nav-link.active::after,
-#sidebar .nav-link[aria-current="page"]::after {
+/* =========================
+   FUNDO SUAVE (GLASS EFFECT)
+========================= */
+#sidebar .nav-link::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(255,255,255,0.06);
     border-radius: 10px;
+    background: transparent;
+    transition: all 0.2s ease;
     z-index: -1;
+}
+
+/* hover OU ativo usa o mesmo fundo */
+#sidebar .nav-link:hover::after,
+#sidebar .nav-link.active::after,
+#sidebar .nav-link[aria-current="page"]::after {
+    background: rgba(255,255,255,0.06);
 }
