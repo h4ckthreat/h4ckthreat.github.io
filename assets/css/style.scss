@@ -64,20 +64,17 @@ a.post-tag {
 }
 
 /* SE TIVER ÍCONE DENTRO (SVG ou i) */
-#back-to-top:hover i,
-.back-to-top:hover i,
-.top-link:hover i,
-#back-to-top:hover svg,
-.back-to-top:hover svg,
-.top-link:hover svg {
-    filter: drop-shadow(0 0 6px rgba(255,255,255,0.9));
-}
+//#back-to-top:hover i,
+//.back-to-top:hover i,
+// .top-link:hover i,
+// #back-to-top:hover svg,
+//.back-to-top:hover svg,
+// .top-link:hover svg {
+    // filter: drop-shadow(0 0 6px rgba(255,255,255,0.9));
+// }
 
 
-
-
-
-
+/* mata qualquer shimmer global
 .post-preview::before,
 .post-preview::after {
     background: transparent !important;
@@ -86,7 +83,7 @@ a.post-tag {
     transform: none !important;
 }
 
-/* mata qualquer shimmer global */
+ // mata qualquer shimmer global
 @keyframes shine {
     from { opacity: 0; transform: none; }
     to { opacity: 0; transform: none; }
@@ -96,3 +93,4 @@ a.post-tag {
     from { opacity: 0; transform: none; }
     to { opacity: 0; transform: none; }
 }
+*/
