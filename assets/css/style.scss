@@ -7,37 +7,40 @@ a.post-tag {
     transition: color 0.05s linear !important;
 }
 
- //Base do menu (normal + hover)
-#sidebar .nav-link,
-#sidebar a {
-    transition: all 0.15s ease;
-    color: #cfcfcf !important;
-    position: relative;
+#sidebar .nav-item {
+  position: relative;
 }
 
-// Hover branco brilhante
-#sidebar .nav-link:hover,
-#sidebar a:hover {
-    color: #ffffff !important;
-    text-shadow: 0 0 10px rgba(255,255,255,0.9);
+/* LINHA LATERAL (INICIALMENTE INVISÍVEL) */
+#sidebar .nav-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20%;
+  height: 60%;
+  width: 3px;
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+  border-radius: 2px;
 }
 
-// Linha lateral “hacker indicator”
-#sidebar .nav-link::before {
-    content: "";
-    position: absolute;
-    left: -10px;
-    top: 20%;
-    height: 60%;
-    width: 2px;
-    background: transparent;
-    transition: all 0.15s ease;
+/* HOVER - TEXTO BRANCO BRILHANTE */
+#sidebar .nav-item:hover .nav-link {
+  color: #ffffff !important;
+  text-shadow: 0 0 10px rgba(255,255,255,0.9),
+               0 0 20px rgba(255,255,255,0.6);
 }
 
-// Hover ativa a linha
-#sidebar .nav-link:hover::before {
-    background: #ffffff;
-    box-shadow: 0 0 8px rgba(255,255,255,0.8);
+/* HOVER - LINHA BRILHANTE */
+#sidebar .nav-item:hover::before {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(255,255,255,0.9),
+              0 0 18px rgba(255,255,255,0.6);
+}
+
+/* ANIMAÇÃO SUAVE */
+#sidebar .nav-link {
+  transition: all 0.2s ease-in-out;
 }
 
 // houver botão
