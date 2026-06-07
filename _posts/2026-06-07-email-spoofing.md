@@ -9,7 +9,7 @@ image: "assets/img/posts/spoof.jpg"
 alt: "Pentesting Android"
 ---
 
-![E-mail Spoofing](/img/posts/spoof.png)
+![E-mail Spoofing](assets/img/posts/spoof.jpg)
 
 
 - [Introdução](#introdução)
