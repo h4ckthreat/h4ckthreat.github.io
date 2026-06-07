@@ -3,52 +3,61 @@
 
 @import '{{ site.theme }}';
 
-/* append your custom style below */
+/* seleção de texto */
 ::selection {
-    background-color: #F074C0; /* Cor de fundo para a seleção de texto */
-    color: #000000; /* Cor do texto selecionado */
+    background-color: #F074C0;
+    color: #000000;
 }
 
+/* subtitle */
 #sidebar .site-subtitle {
     font-size: 100%;
     color: var(--sidebar-muted-color);
     margin-top: .25rem;
     margin-left: -1.5rem;
     word-spacing: 1px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
+/* tags */
 .post-tag,
 a.post-tag {
     transition: color 0.05s linear !important;
 }
 
-// Base do menu (normal + hover)
-#sidebar .nav-link,
-#sidebar a {
+/* =========================
+   BASE DO MENU
+========================= */
+#sidebar .nav-link {
     transition: all 0.15s ease;
     color: #cfcfcf !important;
     position: relative;
+    border-radius: 10px;
+    padding: 10px 12px;
 }
 
-// Hover branco brilhante
-#sidebar .nav-link:hover,
-#sidebar a:hover {
+/* hover */
+#sidebar .nav-link:hover {
     color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.06);
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
-// Item ativo (menu selecionado)
+/* =========================
+   ITEM ATIVO (IMPORTANTE)
+   cobre várias formas de "active"
+========================= */
 #sidebar .nav-link.active,
-#sidebar a.active {
+#sidebar .nav-item.active > .nav-link,
+#sidebar .nav-link[aria-current="page"] {
     color: #ffffff !important;
+    background: rgba(255, 255, 255, 0.10);
     text-shadow: 0 0 12px rgba(255,255,255,1);
 }
 
-// Linha lateral “hacker indicator”
+/* =========================
+   BARRA LATERAL (INDICADOR)
+========================= */
 #sidebar .nav-link::before {
     content: "";
     position: absolute;
@@ -58,16 +67,30 @@ a.post-tag {
     width: 2px;
     background: transparent;
     transition: all 0.15s ease;
+    border-radius: 2px;
 }
 
-// Hover ativa a linha
+/* hover ativa linha */
 #sidebar .nav-link:hover::before {
     background: #ffffff;
     box-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
-// Linha ativa permanente
-#sidebar .nav-link.active::before {
+/* ativo permanente */
+#sidebar .nav-link.active::before,
+#sidebar .nav-link[aria-current="page"]::before,
+#sidebar .nav-item.active > .nav-link::before {
     background: #ffffff;
     box-shadow: 0 0 10px rgba(255,255,255,1);
+}
+
+/* opcional: efeito mais “UI premium” igual sua imagem */
+#sidebar .nav-link.active::after,
+#sidebar .nav-link[aria-current="page"]::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255,255,255,0.06);
+    border-radius: 10px;
+    z-index: -1;
 }
