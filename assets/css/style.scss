@@ -52,3 +52,23 @@ a.post-tag {
     background: #ffffff;
     box-shadow: 0 0 10px rgba(255,255,255,1);
 }
+
+/* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
+#back-to-top:hover,
+.back-to-top:hover,
+#topbar a[href="#top"]:hover,
+.top-link:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 10px rgba(255,255,255,0.9);
+    transform: translateY(-2px);
+}
+
+/* SE TIVER ÍCONE DENTRO (SVG ou i) */
+#back-to-top:hover i,
+.back-to-top:hover i,
+.top-link:hover i,
+#back-to-top:hover svg,
+.back-to-top:hover svg,
+.top-link:hover svg {
+    filter: drop-shadow(0 0 6px rgba(255,255,255,0.9));
+}
