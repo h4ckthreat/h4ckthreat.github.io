@@ -7,7 +7,7 @@ a.post-tag {
     transition: color 0.05s linear !important;
 }
 
-// Base do menu (normal + hover)
+/* Base do menu */
 #sidebar .nav-link,
 #sidebar a {
     transition: all 0.15s ease;
@@ -15,22 +15,23 @@ a.post-tag {
     position: relative;
 }
 
-// Hover branco brilhante
+/* Hover (somente itens não ativos ou também ativos) */
 #sidebar .nav-link:hover,
 #sidebar a:hover {
     color: #ffffff !important;
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
-// Item ativo (menu selecionado)
+/* ITEM ATIVO (estado fixo) */
 #sidebar .nav-link.active,
 #sidebar a.active {
     color: #ffffff !important;
     text-shadow: 0 0 12px rgba(255,255,255,1);
 }
 
-// Linha lateral “hacker indicator”
-#sidebar .nav-link::before {
+/* Linha lateral base */
+#sidebar .nav-link::before,
+#sidebar a::before {
     content: "";
     position: absolute;
     left: -10px;
@@ -41,14 +42,25 @@ a.post-tag {
     transition: all 0.15s ease;
 }
 
-// Hover ativa a linha
-#sidebar .nav-link:hover::before {
+/* Hover ativa linha */
+#sidebar .nav-link:hover::before,
+#sidebar a:hover::before {
     background: #ffffff;
     box-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
-// Linha ativa permanente
-#sidebar .nav-link.active::before {
-    background: #ffffff;
-    box-shadow: 0 0 10px rgba(255,255,255,1);
+/* LINHA ATIVA PERMANENTE (prioridade máxima) */
+#sidebar .nav-link.active::before,
+#sidebar a.active::before {
+    background: #ffffff !important;
+    box-shadow: 0 0 12px rgba(255,255,255,1) !important;
+    height: 70%;
+    top: 15%;
+}
+
+/* IMPORTANTE: hover não deve sobrescrever o ativo */
+#sidebar .nav-link.active:hover,
+#sidebar a.active:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 12px rgba(255,255,255,1);
 }
