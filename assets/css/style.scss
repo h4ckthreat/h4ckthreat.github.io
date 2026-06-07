@@ -3,52 +3,63 @@
 
 @import '{{ site.theme }}';
 
-/* append your custom style below */
+/* =========================
+   SELEÇÃO DE TEXTO
+========================= */
 ::selection {
-    background-color: #F074C0; /* Cor de fundo para a seleção de texto */
-    color: #000000; /* Cor do texto selecionado */
+    background-color: #F074C0;
+    color: #000000;
 }
 
+/* =========================
+   SUBTITLE SIDEBAR
+========================= */
 #sidebar .site-subtitle {
     font-size: 100%;
     color: var(--sidebar-muted-color);
     margin-top: .25rem;
     margin-left: -1.5rem;
     word-spacing: 1px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
+    user-select: none;
 }
 
+/* =========================
+   TAGS
+========================= */
 .post-tag,
 a.post-tag {
     transition: color 0.05s linear !important;
 }
 
-// Base do menu (normal + hover)
-#sidebar .nav-link,
-#sidebar a {
+/* =========================
+   SIDEBAR MENU BASE
+========================= */
+#sidebar .nav-link {
+    position: relative;
     transition: all 0.15s ease;
     color: #cfcfcf !important;
-    position: relative;
 }
 
-// Hover branco brilhante
-#sidebar .nav-link:hover,
-#sidebar a:hover {
+/* =========================
+   HOVER MENU
+========================= */
+#sidebar .nav-link:hover {
     color: #ffffff !important;
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
-// Item ativo (menu selecionado)
+/* =========================
+   MENU ATIVO (CORRETO)
+========================= */
 #sidebar .nav-link.active,
-#sidebar a.active {
+#sidebar .nav-link[aria-current="page"] {
     color: #ffffff !important;
     text-shadow: 0 0 12px rgba(255,255,255,1);
 }
 
-// Linha lateral “hacker indicator”
+/* =========================
+   LINHA LATERAL BASE
+========================= */
 #sidebar .nav-link::before {
     content: "";
     position: absolute;
@@ -60,14 +71,38 @@ a.post-tag {
     transition: all 0.15s ease;
 }
 
-// Hover ativa a linha
+/* =========================
+   LINHA NO HOVER
+========================= */
 #sidebar .nav-link:hover::before {
     background: #ffffff;
     box-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
-// Linha ativa permanente
-#sidebar .nav-link.active::before {
+/* =========================
+   LINHA NO ATIVO
+========================= */
+#sidebar .nav-link.active::before,
+#sidebar .nav-link[aria-current="page"]::before {
     background: #ffffff;
-    box-shadow: 0 0 10px rgba(255,255,255,1);
+    box-shadow: 0 0 12px rgba(255,255,255,1);
+}
+
+/* =========================
+   POSTS (HOME)
+========================= */
+.post-preview a,
+.post-title a,
+.card-title a {
+    position: relative;
+    transition: color 0.15s ease, text-shadow 0.15s ease;
+    color: #cfcfcf !important;
+}
+
+/* HOVER POSTS */
+.post-preview a:hover,
+.post-title a:hover,
+.card-title a:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 12px rgba(255,255,255,0.9);
 }
