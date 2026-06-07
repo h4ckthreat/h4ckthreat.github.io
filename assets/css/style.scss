@@ -1,12 +1,14 @@
+---
+---
+
 @import '{{ site.theme }}';
 
-/* Seleção de texto */
+/* append your custom style below */
 ::selection {
-    background-color: #F074C0;
-    color: #000000;
+    background-color: #F074C0; /* Cor de fundo para a seleção de texto */
+    color: #000000; /* Cor do texto selecionado */
 }
 
-/* Subtítulo do sidebar */
 #sidebar .site-subtitle {
     font-size: 100%;
     color: var(--sidebar-muted-color);
@@ -16,16 +18,15 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
+    user-select: none
 }
 
-/* Tags */
 .post-tag,
 a.post-tag {
     transition: color 0.05s linear !important;
 }
 
-/* Base do menu */
+// Base do menu (normal + hover)
 #sidebar .nav-link,
 #sidebar a {
     transition: all 0.15s ease;
@@ -33,14 +34,14 @@ a.post-tag {
     position: relative;
 }
 
-/* Hover */
+// Hover branco brilhante
 #sidebar .nav-link:hover,
 #sidebar a:hover {
     color: #ffffff !important;
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
-/* ITEM ATIVO (CLICADO / SELECIONADO) */
+/* Item ativo (menu selecionado) */
 #sidebar .nav-link.active,
 #sidebar a.active,
 #sidebar .nav-link[aria-current="page"],
@@ -49,7 +50,7 @@ a.post-tag {
     text-shadow: 0 0 12px rgba(255,255,255,1);
 }
 
-/* Linha lateral base */
+// Linha lateral “hacker indicator”
 #sidebar .nav-link::before {
     content: "";
     position: absolute;
@@ -61,18 +62,15 @@ a.post-tag {
     transition: all 0.15s ease;
 }
 
-/* Linha no hover */
-#sidebar .nav-link:hover::before,
-#sidebar a:hover::before {
+// Hover ativa a linha
+#sidebar .nav-link:hover::before {
     background: #ffffff;
     box-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
-/* Linha PERMANENTE no item ativo */
+/* Linha ativa permanente */
 #sidebar .nav-link.active::before,
-#sidebar a.active::before,
-#sidebar .nav-link[aria-current="page"]::before,
-#sidebar a[aria-current="page"]::before {
+#sidebar .nav-link[aria-current="page"]::before {
     background: #ffffff;
     box-shadow: 0 0 10px rgba(255,255,255,1);
 }
