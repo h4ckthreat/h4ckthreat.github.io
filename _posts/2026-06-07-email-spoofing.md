@@ -4,8 +4,7 @@ author: h4ckthreat
 date: 2026-06-07 01:00:00 -0300
 categories: [Estudos, E-mail Spoofing]
 tags: [SMTP, DMARC, DKIM, E-mail Spoofing]
-
-
+alt: "Pentesting Android"
 ---
 
 
