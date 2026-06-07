@@ -71,3 +71,33 @@ a.post-tag {
     background: #ffffff;
     box-shadow: 0 0 10px rgba(255,255,255,1);
 }
+
+
+
+.post-preview a,
+.post-title a,
+.card-title a {
+    transition: none !important;
+    color: #cfcfcf !important;
+}
+
+.post-preview a:hover,
+.post-title a:hover,
+.card-title a:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 10px rgba(255,255,255,0.9);
+}
+
+.post-preview a:hover,
+.post-title a:hover,
+.card-title a:hover {
+    color: #ffffff !important;
+    text-shadow:
+        0 0 6px rgba(255,255,255,0.9),
+        0 0 14px rgba(255,255,255,0.6);
+}
+
+.post-preview:hover {
+    background: rgba(255, 255, 255, 0.03);
+    transition: none !important;
+}
