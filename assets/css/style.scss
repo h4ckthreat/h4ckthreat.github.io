@@ -29,6 +29,12 @@ a.post-tag {
 #sidebar .nav-link,
 #sidebar a {
     transition: none !important;
+    color: #cfcfcf !important;
+}
+
+#sidebar .nav-link:hover,
+#sidebar a:hover {
+    color: #0d6efd !important;
 }
 
 
