@@ -8,7 +8,7 @@ tags: [SMTP, DMARC, DKIM, E-mail Spoofing]
 image: "assets/img/posts/spoof.jpg"
 ---
 
-![E-mail Spoofing](assets/img/posts/spoof.jpg)
+![E-mail Spoofing](/assets/img/posts/spoof.jpg)
 
 
 ## Introdução
