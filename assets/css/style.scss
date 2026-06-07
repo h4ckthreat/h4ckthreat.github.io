@@ -1,97 +1,78 @@
----
----
-
 @import '{{ site.theme }}';
 
-/* =========================
-   SELEÇÃO DE TEXTO
-========================= */
+/* Seleção de texto */
 ::selection {
     background-color: #F074C0;
     color: #000000;
 }
 
-/* =========================
-   SUBTITLE SIDEBAR
-========================= */
+/* Subtítulo do sidebar */
 #sidebar .site-subtitle {
     font-size: 100%;
     color: var(--sidebar-muted-color);
     margin-top: .25rem;
     margin-left: -1.5rem;
+    word-spacing: 1px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 
-/* =========================
-   TAGS
-========================= */
+/* Tags */
 .post-tag,
 a.post-tag {
     transition: color 0.05s linear !important;
 }
 
-/* =========================
-   SIDEBAR BASE
-========================= */
-#sidebar .nav-link {
-    position: relative;
+/* Base do menu */
+#sidebar .nav-link,
+#sidebar a {
     transition: all 0.15s ease;
     color: #cfcfcf !important;
-    border-radius: 10px;
-}
-
-/* =========================
-   HOVER MENU
-========================= */
-#sidebar .nav-link:hover {
-    background: rgba(255, 255, 255, 0.04);
-    color: #ffffff !important;
-    text-shadow: 0 0 8px rgba(255,255,255,0.8);
-}
-
-/* =========================
-   MENU ATIVO (ESTILO PILL)
-========================= */
-#sidebar .nav-link.active,
-#sidebar .nav-link[aria-current="page"] {
     position: relative;
+}
+
+/* Hover */
+#sidebar .nav-link:hover,
+#sidebar a:hover {
     color: #ffffff !important;
-    background: rgba(255, 255, 255, 0.06);
-    border-radius: 10px;
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
-/* =========================
-   BARRA LATERAL ATIVA
-========================= */
-#sidebar .nav-link.active::before,
-#sidebar .nav-link[aria-current="page"]::before {
+/* ITEM ATIVO (CLICADO / SELECIONADO) */
+#sidebar .nav-link.active,
+#sidebar a.active,
+#sidebar .nav-link[aria-current="page"],
+#sidebar a[aria-current="page"] {
+    color: #ffffff !important;
+    text-shadow: 0 0 12px rgba(255,255,255,1);
+}
+
+/* Linha lateral base */
+#sidebar .nav-link::before {
     content: "";
     position: absolute;
-    left: -8px;
-    top: 15%;
-    height: 70%;
-    width: 3px;
+    left: -10px;
+    top: 20%;
+    height: 60%;
+    width: 2px;
+    background: transparent;
+    transition: all 0.15s ease;
+}
+
+/* Linha no hover */
+#sidebar .nav-link:hover::before,
+#sidebar a:hover::before {
     background: #ffffff;
-    border-radius: 2px;
-    box-shadow: 0 0 12px rgba(255,255,255,1);
+    box-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
-/* =========================
-   POSTS (HOME)
-========================= */
-.post-preview a,
-.post-title a,
-.card-title a {
-    position: relative;
-    transition: color 0.15s ease, text-shadow 0.15s ease;
-    color: #cfcfcf !important;
-}
-
-/* HOVER POSTS */
-.post-preview a:hover,
-.post-title a:hover,
-.card-title a:hover {
-    color: #ffffff !important;
-    text-shadow: 0 0 12px rgba(255,255,255,0.9);
+/* Linha PERMANENTE no item ativo */
+#sidebar .nav-link.active::before,
+#sidebar a.active::before,
+#sidebar .nav-link[aria-current="page"]::before,
+#sidebar a[aria-current="page"]::before {
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(255,255,255,1);
 }
