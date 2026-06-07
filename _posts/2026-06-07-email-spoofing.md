@@ -9,8 +9,6 @@ tags: [SMTP, DMARC, DKIM, E-mail Spoofing]
 ---
 
 
-
-
 ## Introdução
 
 Imagine explorar uma vulnerabilidade que, aparentemente, dentro do seu escopo de conhecimento, não seria possível de explorar, e como consequência, não saber muito bem o que foi feito.
