@@ -7,7 +7,7 @@ a.post-tag {
     transition: color 0.05s linear !important;
 }
 
-/* Base do menu */
+/* BASE */
 #sidebar .nav-link,
 #sidebar a {
     transition: all 0.15s ease;
@@ -15,16 +15,21 @@ a.post-tag {
     position: relative;
 }
 
-/* HOVER + ACTIVE = MESMO VISUAL */
+/* HOVER */
 #sidebar .nav-link:hover,
-#sidebar a:hover,
+#sidebar a:hover {
+    color: #ffffff !important;
+    text-shadow: 0 0 10px rgba(255,255,255,0.9);
+}
+
+/* ACTIVE (FORÇA MESMO EFEITO DO HOVER SEM PRECISAR PASSAR MOUSE) */
 #sidebar .nav-link.active,
 #sidebar a.active {
     color: #ffffff !important;
     text-shadow: 0 0 10px rgba(255,255,255,0.9);
 }
 
-/* Linha lateral base */
+/* LINHA BASE */
 #sidebar .nav-link::before,
 #sidebar a::before {
     content: "";
@@ -37,9 +42,14 @@ a.post-tag {
     transition: all 0.15s ease;
 }
 
-/* HOVER + ACTIVE = MESMA LINHA */
+/* HOVER LINHA */
 #sidebar .nav-link:hover::before,
-#sidebar a:hover::before,
+#sidebar a:hover::before {
+    background: #ffffff;
+    box-shadow: 0 0 8px rgba(255,255,255,0.8);
+}
+
+/* ACTIVE LINHA (PERMANENTE IGUAL HOVER) */
 #sidebar .nav-link.active::before,
 #sidebar a.active::before {
     background: #ffffff;
