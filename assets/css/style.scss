@@ -84,7 +84,7 @@ a.post-tag {
     //filter: drop-shadow(0 0 6px rgba(255,255,255,0.9));
 //}
 
-/* mata qualquer shimmer global
+// mata qualquer shimmer global
 .post-preview::before,
 .post-preview::after {
     background: transparent !important;
@@ -103,4 +103,3 @@ a.post-tag {
     from { opacity: 0; transform: none; }
     to { opacity: 0; transform: none; }
 }
-*/
