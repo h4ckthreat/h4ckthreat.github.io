@@ -74,6 +74,34 @@ a.post-tag {
   }
 }
 
+.mobile-toc {
+  margin-bottom: 2rem;
+}
+
+.mobile-toc-toggle {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid var(--main-border-color);
+  border-radius: 8px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.mobile-toc-links {
+  display: none;
+  margin-top: 1rem;
+}
+
+.mobile-toc-links.open {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .mobile-toc {
+    display: none;
+  }
+}
 
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
 //#back-to-top:hover,
