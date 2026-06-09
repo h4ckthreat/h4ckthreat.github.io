@@ -83,12 +83,14 @@ tail_includes:
   <button class="mobile-toc-toggle">
     ☰ Conteúdo
   </button>
-
-  <div id="mobile-toc" class="mobile-toc-links"></div>
 </div>
 
-<div class="post-content">
-  {{ content }}
+<div class="mobile-toc-modal">
+  <div class="mobile-toc-modal-content">
+    <button class="mobile-toc-close">✕</button>
+    <h3>Conteúdo</h3>
+    <div id="mobile-toc"></div>
+  </div>
 </div>
 
 <div class="post-tail-wrapper text-muted">
