@@ -1,7 +1,7 @@
 ---
 title: Portas Lógicas
 date: 2023-10-13 14:30:00 +0800
-categories: [Artigost, Eletrônica Digital]
+categories: [Artigos, Eletrônica Digital]
 tags: [Portas Lógicas, Eletrônica Digital] # TAG names should always be lowercase
 image: /assets/img/posts/portas-logicas.jpg
 toc: true
