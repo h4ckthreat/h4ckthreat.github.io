@@ -8,5 +8,15 @@ document.addEventListener("DOMContentLoaded", function () {
       orderedList: false,
       scrollSmooth: false
     });
+
+    // copia o TOC do desktop para o TOC do celular
+    const toc = document.querySelector("#toc");
+    const mobileToc = document.querySelector("#mobile-toc");
+
+    if (toc && mobileToc) {
+      setTimeout(() => {
+        mobileToc.innerHTML = toc.innerHTML;
+      }, 100);
+    }
   }
 });
