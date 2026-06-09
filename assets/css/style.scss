@@ -63,6 +63,17 @@ a.post-tag {
     filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
 }
 
+// toc mobile
+.mobile-toc {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 992px) {
+  .mobile-toc {
+    display: none;
+  }
+}
+
 
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
 //#back-to-top:hover,
