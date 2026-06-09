@@ -20,3 +20,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
+
+const toggle = document.querySelector(".mobile-toc-toggle");
+const links = document.querySelector(".mobile-toc-links");
+
+if (toggle && links) {
+  toggle.addEventListener("click", () => {
+    links.classList.toggle("open");
+  });
+}
