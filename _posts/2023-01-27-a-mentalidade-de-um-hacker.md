@@ -7,6 +7,8 @@ image:  /assets/img/posts/hacker.jpg
 toc: true
 ---
 
+## Introdução:
+
 <p align="justify"> Hackear não se resume a ficar em uma sala escura digitando em um computador remoto. Hacking é uma forma de explorar a tecnologia, hacking é como você faz ciência. </p>
 
 ## O que é hacking ?
