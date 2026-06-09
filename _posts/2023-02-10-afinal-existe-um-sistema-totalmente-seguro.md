@@ -4,7 +4,10 @@ date: 2023-02-06 14:30:00 +0800
 categories: [h4ckthreat, Privacidade Digital]
 tags: [Privacidade Digital] # TAG names should always be lowercase
 image: /assets/img/posts/sistema-seguro.jpg
+toc: true
 ---
+
+## Introdução:
 
 <p align="justify"> Os investimentos em cyber security têm sido cada vez mais assertivos em proteger dados, e isso não é surpresa; nunca antes tantas informações foram captadas e armazenadas por empresas. Protegê-los é uma questão de necessidade. </p>
 
