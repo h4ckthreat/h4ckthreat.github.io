@@ -4,6 +4,7 @@ date: 2023-09-22 14:30:00 +0800
 categories: [h4ckthreat, Graduação]
 tags: [Ciência da Computação] # TAG names should always be lowercase
 image: /assets/img/posts/ciencia-da-computação.jpeg
+toc: true
 ---
 
 ## Introdução:
