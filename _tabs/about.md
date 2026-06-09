@@ -96,6 +96,9 @@ order: 4
         <li>
           Offensive Security
         </li>
+         <li>
+          Red Team
+        </li>
         <li>
           Reverse Engineering
         </li>
@@ -110,6 +113,9 @@ order: 4
         </li>
         <li>
           Computer Forensics
+        </li>
+        <li>
+          Malware Development
         </li>
          <li>
           Hardware Hacking
