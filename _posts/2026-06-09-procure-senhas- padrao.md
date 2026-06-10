@@ -10,8 +10,10 @@ toc: true
 ## Procure senhas padrão:
 
 <p align="justify"> <p align="justify"> A verificação de credenciais padrão continua sendo uma etapa relevante em testes de intrusão e avaliações de segurança. Para agilizar esse processo, existe um repositório no GitHub que centraliza milhares de combinações de usuários e senhas associadas a aplicações, dispositivos e serviços amplamente utilizados. </p>
- 
- ## Instalação:
+
+**Fonte:** [DefaultCreds-cheat-sheet](https://github.com/ihebski/DefaultCreds-cheat-sheet)
+
+## Instalação:
 
  <p align="justify"> <p align="justify"> Install defaultcreds-cheat-sheet. </p>
  </p>
