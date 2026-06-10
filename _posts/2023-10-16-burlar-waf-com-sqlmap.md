@@ -1,7 +1,7 @@
 ---
 title: Burlar WAF com SQLMAP
 date: 2023-10-16 14:30:00 +0800
-categories: [Notas, Offensive Security]
+categories: [Notas]
 tags: [Sqlmap, Offensive Security] # TAG names should always be lowercase
 image: /assets/img/posts/sqlmap.jpg
 toc: true
