@@ -63,6 +63,82 @@ a.post-tag {
     filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
 }
 
+/* =========================
+   Mobile TOC
+========================= */
+
+.mobile-toc-wrapper,
+#mobile-toc-modal {
+  display: none;
+}
+
+@media (max-width: 849px) {
+
+  /* Esconde o TOC lateral do Chirpy apenas no celular */
+  #toc-wrapper {
+    display: none !important;
+  }
+
+  .mobile-toc-wrapper {
+    display: block;
+    margin: 1rem 0;
+  }
+
+  #mobile-toc-btn {
+    background: transparent;
+    color: inherit;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 14px;
+    padding: .8rem 1.2rem;
+    font-size: .95rem;
+  }
+
+  #mobile-toc-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.55);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+  }
+
+  #mobile-toc-modal.show {
+    display: flex;
+  }
+
+  .mobile-toc-box {
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+
+    overflow-y: auto;
+
+    background: var(--card-bg);
+    border-radius: 20px;
+    padding: 1rem;
+  }
+
+  .mobile-toc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 1rem;
+  }
+
+  #mobile-toc-close {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.5rem;
+  }
+}
+
+
+
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
 //#back-to-top:hover,
 //.back-to-top:hover,
