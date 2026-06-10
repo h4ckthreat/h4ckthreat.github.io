@@ -67,7 +67,10 @@ a.post-tag {
    Mobile TOC
 ========================= */
 
-.mobile-toc-wrapper,
+.mobile-toc-wrapper {
+  display: none;
+}
+
 #mobile-toc-modal {
   display: none;
 }
@@ -79,6 +82,7 @@ a.post-tag {
     display: none !important;
   }
 
+  /* Botão Contents */
   .mobile-toc-wrapper {
     display: block;
     margin: 1rem 0;
@@ -91,25 +95,37 @@ a.post-tag {
     border-radius: 14px;
     padding: .8rem 1.2rem;
     font-size: .95rem;
+    cursor: pointer;
+    transition: all .2s ease;
   }
 
+  #mobile-toc-btn:hover {
+    border-color: rgba(255,255,255,.4);
+  }
+
+  /* Fundo escuro */
   #mobile-toc-modal {
     position: fixed;
     inset: 0;
+
     background: rgba(0,0,0,.55);
 
     display: none;
+
     justify-content: center;
     align-items: center;
 
     z-index: 9999;
   }
 
+  /* Modal aberto */
   #mobile-toc-modal.show {
-    display: flex;
+    display: flex !important;
   }
 
+  /* Caixa */
   .mobile-toc-box {
+
     width: 90%;
     max-width: 500px;
     max-height: 80vh;
@@ -117,11 +133,18 @@ a.post-tag {
     overflow-y: auto;
 
     background: var(--card-bg);
+
     border-radius: 20px;
+
     padding: 1rem;
+
+    box-shadow:
+      0 0 20px rgba(0,0,0,.5);
   }
 
+  /* Cabeçalho */
   .mobile-toc-header {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,15 +152,38 @@ a.post-tag {
     margin-bottom: 1rem;
   }
 
+  /* Botão fechar */
   #mobile-toc-close {
+
     background: none;
     border: none;
+
     color: inherit;
+
     font-size: 1.5rem;
+
+    cursor: pointer;
+  }
+
+  /* Lista do TOC */
+  #mobile-toc-content ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  #mobile-toc-content li {
+    margin: .5rem 0;
+  }
+
+  #mobile-toc-content a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  #mobile-toc-content a:hover {
+    opacity: .8;
   }
 }
-
-
 
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
 //#back-to-top:hover,
