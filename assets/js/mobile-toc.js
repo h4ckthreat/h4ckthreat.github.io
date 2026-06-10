@@ -1,31 +1,47 @@
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
-  const btn = document.getElementById("mobile-toc-btn");
-  const modal = document.getElementById("mobile-toc-modal");
-  const close = document.getElementById("mobile-toc-close");
-  const content = document.getElementById("mobile-toc-content");
+  const toc = document.querySelector("#toc");
 
-  if (!btn || !modal || !close || !content) {
-    return;
-  }
+  if (!toc) return;
 
-  btn.addEventListener("click", () => {
+  document.getElementById("mobile-toc-content").innerHTML = toc.innerHTML;
 
-    modal.classList.add("show");
+  // Abrir modal
+  document
+    .getElementById("mobile-toc-btn")
+    .addEventListener("click", () => {
+      document
+        .getElementById("mobile-toc-modal")
+        .classList.add("show");
+    });
 
-    const toc =
-      document.querySelector("#toc") ||
-      document.querySelector("#toc-wrapper ul") ||
-      document.querySelector(".toc ul");
+  // Fechar pelo X
+  document
+    .getElementById("mobile-toc-close")
+    .addEventListener("click", () => {
+      document
+        .getElementById("mobile-toc-modal")
+        .classList.remove("show");
+    });
 
-    if (toc) {
-      content.innerHTML = toc.outerHTML;
-    }
+  // Fechar clicando fora da caixa
+  document
+    .getElementById("mobile-toc-modal")
+    .addEventListener("click", (e) => {
+      if (e.target.id === "mobile-toc-modal") {
+        e.currentTarget.classList.remove("show");
+      }
+    });
 
-  });
-
-  close.addEventListener("click", () => {
-    modal.classList.remove("show");
-  });
+  // Fechar ao selecionar um item do conteúdo
+  document
+    .getElementById("mobile-toc-content")
+    .addEventListener("click", (e) => {
+      if (e.target.closest("a")) {
+        document
+          .getElementById("mobile-toc-modal")
+          .classList.remove("show");
+      }
+    });
 
 });
