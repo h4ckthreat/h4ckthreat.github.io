@@ -75,18 +75,20 @@ a.post-tag {
   display: none;
 }
 
-@media (max-width: 849px) {
+@media (max-width: 1400px), (orientation: portrait) {
 
-  /* Esconde o TOC lateral do Chirpy apenas no celular */
+  /* Esconde o TOC lateral */
   #toc-wrapper {
     display: none !important;
   }
 
-  /* Botão Contents */
+  /* Mostra o botão Conteúdo */
   .mobile-toc-wrapper {
     display: block;
     margin: 1rem 0;
   }
+
+}
 
   #mobile-toc-btn {
     background: transparent;
