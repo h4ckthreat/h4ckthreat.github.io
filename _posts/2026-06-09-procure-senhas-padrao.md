@@ -2,7 +2,7 @@
 title: Procure senhas padrão
 date: 2026-06-09 19:30:00 +0800
 categories: [Offensive Security, Notas]
-tags: [Hacking, Default Passwords, Notas] # TAG names should always be lowercase
+tags: [Hacking, Default Passwords, Notas, Offensive Security] # TAG names should always be lowercase
 image:  /assets/img/posts/password.jpg
 toc: true
 ---
