@@ -9,8 +9,7 @@ toc: true
 
 ## Procure senhas padrão:
 
-<p align="justify"> <p align="justify"> Você está procurando uma senha padrão? Pare de procurar. Há um lugar — um balcão único — para senhas padrão. Basta instalá-lo no Github e pronto. </p>
- </p>
+<p align="justify"> <p align="justify"> A verificação de credenciais padrão continua sendo uma etapa relevante em testes de intrusão e avaliações de segurança. Para agilizar esse processo, existe um repositório no GitHub que centraliza milhares de combinações de usuários e senhas associadas a aplicações, dispositivos e serviços amplamente utilizados. </p>
  
  ## Instalação:
 
