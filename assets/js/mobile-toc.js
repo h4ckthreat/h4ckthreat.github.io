@@ -1,25 +1,31 @@
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
 
-  const toc = document.querySelector("#toc");
+  const btn = document.getElementById("mobile-toc-btn");
+  const modal = document.getElementById("mobile-toc-modal");
+  const close = document.getElementById("mobile-toc-close");
+  const content = document.getElementById("mobile-toc-content");
 
-  if (!toc) return;
+  if (!btn || !modal || !close || !content) {
+    return;
+  }
 
-  document.getElementById("mobile-toc-content").innerHTML = toc.innerHTML;
+  btn.addEventListener("click", () => {
 
-  document
-    .getElementById("mobile-toc-btn")
-    .addEventListener("click", () => {
-      document
-        .getElementById("mobile-toc-modal")
-        .classList.add("show");
-    });
+    modal.classList.add("show");
 
-  document
-    .getElementById("mobile-toc-close")
-    .addEventListener("click", () => {
-      document
-        .getElementById("mobile-toc-modal")
-        .classList.remove("show");
-    });
+    const toc =
+      document.querySelector("#toc") ||
+      document.querySelector("#toc-wrapper ul") ||
+      document.querySelector(".toc ul");
+
+    if (toc) {
+      content.innerHTML = toc.outerHTML;
+    }
+
+  });
+
+  close.addEventListener("click", () => {
+    modal.classList.remove("show");
+  });
 
 });
