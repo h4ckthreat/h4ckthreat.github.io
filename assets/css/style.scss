@@ -63,6 +63,65 @@ a.post-tag {
     filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
 }
 
+/* 🔘 Botão flutuante mobile */
+.toc-toggle {
+  display: none;
+  position: fixed;
+  bottom: 18px;
+  right: 18px;
+  z-index: 9999;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: #111;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+}
+
+/* 🌑 overlay */
+.toc-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: 9998;
+}
+
+/* 📱 popup estilo bottom sheet */
+.toc-popup {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-height: 70vh;
+  background: #fff;
+  border-radius: 14px 14px 0 0;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+/* ❌ botão fechar */
+.toc-close {
+  float: right;
+  border: none;
+  background: transparent;
+  font-size: 22px;
+}
+
+/* 📱 MOBILE ONLY */
+@media (max-width: 768px) {
+  .toc-toggle {
+    display: block;
+  }
+
+  /* opcional: esconder TOC desktop no mobile */
+  #toc {
+    display: none;
+  }
+}
+
+
+
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
 //#back-to-top:hover,
 //.back-to-top:hover,
