@@ -63,45 +63,6 @@ a.post-tag {
     filter: drop-shadow(0 0 6px rgba(255,255,255,0.8));
 }
 
-// toc mobile
-.mobile-toc {
-  margin-bottom: 2rem;
-}
-
-@media (min-width: 992px) {
-  .mobile-toc {
-    display: none;
-  }
-}
-
-.mobile-toc {
-  margin-bottom: 2rem;
-}
-
-.mobile-toc-toggle {
-  width: 100%;
-  padding: 10px 15px;
-  border: 1px solid var(--main-border-color);
-  border-radius: 8px;
-  background: transparent;
-  color: inherit;
-  cursor: pointer;
-}
-
-.mobile-toc-links {
-  display: none;
-  margin-top: 1rem;
-}
-
-.mobile-toc-links.open {
-  display: block;
-}
-
-@media (min-width: 992px) {
-  .mobile-toc {
-    display: none;
-  }
-}
 
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
 //#back-to-top:hover,
