@@ -18,7 +18,7 @@ toc: true
  <p align="justify"> <p align="justify"> Install defaultcreds-cheat-sheet. </p></p>
  
  ```shell
-creds search tomcat
+pip3 install defaultcreds-cheat-sheet
 ```
 
 ## Uso:
