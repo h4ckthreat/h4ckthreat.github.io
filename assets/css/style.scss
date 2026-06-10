@@ -88,8 +88,7 @@ a.post-tag {
     margin: 1rem 0;
   }
 
-}
-
+  /* Botão */
   #mobile-toc-btn {
     background: transparent;
     color: inherit;
@@ -127,7 +126,6 @@ a.post-tag {
 
   /* Caixa */
   .mobile-toc-box {
-
     width: 90%;
     max-width: 500px;
     max-height: 80vh;
@@ -140,13 +138,11 @@ a.post-tag {
 
     padding: 1rem;
 
-    box-shadow:
-      0 0 20px rgba(0,0,0,.5);
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
   }
 
   /* Cabeçalho */
   .mobile-toc-header {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,7 +152,6 @@ a.post-tag {
 
   /* Botão fechar */
   #mobile-toc-close {
-
     background: none;
     border: none;
 
@@ -185,7 +180,8 @@ a.post-tag {
   #mobile-toc-content a:hover {
     opacity: .8;
   }
-}
+
+} /* fim do media */
 
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
 //#back-to-top:hover,
