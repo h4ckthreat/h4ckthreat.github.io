@@ -23,7 +23,7 @@ creds search tomcat
 
 ## Uso:
 
-<p align="justify"> Exemplo de busca por senha padrão para tomcat. </p></p>
+<p align="justify"> <p align="justify"> Exemplo de busca por senha padrão para tomcat. </p></p>
 
 ```shell
 creds search tomcat
