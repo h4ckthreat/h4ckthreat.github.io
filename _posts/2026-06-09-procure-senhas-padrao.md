@@ -2,7 +2,7 @@
 title: Procure senhas padrão
 date: 2026-06-09 19:30:00 +0800
 categories: [Offensive Security, Notas]
-tags: [Hacking, Default Passwords] # TAG names should always be lowercase
+tags: [Hacking, Default Passwords, Notas] # TAG names should always be lowercase
 image:  /assets/img/posts/password.jpg
 toc: true
 ---
@@ -15,21 +15,21 @@ toc: true
 
 ## Instalação:
 
- <p align="justify"> <p align="justify"> Install defaultcreds-cheat-sheet. </p>
- </p>
+ <p align="justify"> <p align="justify"> Install defaultcreds-cheat-sheet. </p></p>
  
  ```shell
 creds search tomcat
-``` 
+```
+
 ## Uso:
 
-<p align="justify"> Exemplo de busca por senha padrão para tomcat. </p>
+<p align="justify"> Exemplo de busca por senha padrão para tomcat. </p></p>
 
 ```shell
 creds search tomcat
 ```
 
-<p align="justify"> <p align="justify"> Saída: </p>
+<p align="justify"> <p align="justify"> Saída: </p></p>
 
 ```shell
 +----------------------------------+------------+------------+
