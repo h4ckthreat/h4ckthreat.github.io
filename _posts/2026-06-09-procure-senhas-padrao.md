@@ -15,7 +15,7 @@ toc: true
 
 ## Instalação:
 
- <p align="justify"> <p align="justify"> Install defaultcreds-cheat-sheet. </p></p>
+`Install defaultcreds-cheat-sheet`.
  
  ```shell
 pip3 install defaultcreds-cheat-sheet
@@ -23,7 +23,7 @@ pip3 install defaultcreds-cheat-sheet
 
 ## Uso:
 
-<p align="justify"> <p align="justify"> Exemplo de busca por senha padrão para 'tomcat'. </p></p>
+Exemplo de busca por senha padrão para `tomcat`.
 
 ```shell
 creds search tomcat
