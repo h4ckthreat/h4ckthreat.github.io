@@ -54,4 +54,5 @@ Tudo bem, mas o que tudo isso quer dizer? O que fazer agora?
 
 <p align="justify"> Essas três boas práticas já fazem uma completa diferença. Mesmo assim, não deixe jamais de ter uma empresa em quem confiar; faz toda a diferença.</p>
 
+
 {% include comments.html %}
