@@ -24,12 +24,12 @@ toc: true
 ## 3. Ciência da computação ou engenharia da computação?
 <p align="justify"> É a pergunta mais clássica entre os vestibulandos que consideram Ciência da Computação para graduação. Antes de respondê-la, precisamos de algumas definições:</p>
 
-> Ciência da Computação é a arte de usar matemática para computar. Nada mais, nada menos. Todo o resto deriva disso.
+`Ciência da Computação é a arte de usar matemática para computar. Nada mais, nada menos. Todo o resto deriva disso.`
 
-> Engenharia da Computação é a arte de usar física para controlar sistemas computacionais.
+`Engenharia da Computação é a arte de usar física para controlar sistemas computacionais.`
 
-Não entendeu nada?
-Não se desespere.
+> Não entendeu nada?
+> Não se desespere.
 
 <p align="justify"> Em ciência da computação, você desenvolve algoritmos e sistemas para resolver problemas lógicos. Por exemplo, uma simples calculadora — que tem por objetivo fazer contas — ou o sistema de GPS de um carro. Os sistemas em si não necessariamente influenciam o mundo real, mas criam uma representação lógica de algo real dentro de um sistema.</p>
 
@@ -74,7 +74,7 @@ Não se desespere.
 
 <p align="justify"> Ainda tem alguma dúvida sobre o curso ou quer complementar essa lista? Deixe seu comentário e ficarei feliz em tentar responder. Se preferir, pode me contatar pelo <a href="https://www.instagram.com/h4ckthreat/"><i>Instagram.</i></a></p>
 
-`Bons estudos!`
+> Bons estudos!
 
  
 
