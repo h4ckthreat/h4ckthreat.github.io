@@ -1,17 +1,14 @@
 ---
 title: Entenda a diferença entre Deep Web e Dark Web
 date: 2023-02-10 14:30:00 +0800
-categories: [Artigos, Privacidade Digital]
+categories: [h4ckthreat, Privacidade Digital]
 tags: [Dark Web, Deep Web, Privacidade Digital] # TAG names should always be lowercase
 image: /assets/img/posts/deep-web-post.jpg
-toc: true
 ---
-
-## Introdução:
 
 <p align="justify">Dark web e deep web são frequentemente usadas de forma intercambiável, mas são dois conceitos distintos. A percepção comum é que ambas são focos de atividades criminosas, apesar disto não ser uma verdade absoluta. Neste artigo, explicarei o que é a deep web, a dark web, as diferenças entre as duas e alguns temas relacionados. </p>
 
-## O que é a deep web?
+# O que é a deep web?
 
 <p align="justify"> A deep web é a parte da Internet que é inacessível a mecanismos de busca como Google e Bing. Pense na deep web como qualquer conteúdo oculto por trás de algum tipo de controle de acesso, como um login ou uma palavra de código. Também conhecida como conteúdo “não indexado”, a deep web é várias vezes maior que a web pesquisável ou de “superfície”.</p>
 
@@ -23,7 +20,7 @@ toc: true
 
 <p align="justify"> Atualmente, os mecanismos de busca indexam cerca de 4 bilhões de páginas da web. Embora isso pareça muito, é uma mera fração da quantidade de informações disponíveis na deep web. Segundo algumas estimativas, a deep web é cerca de 550 vezes maior que a web de superfície.</p>
 
-## O que é a dark web?
+# O que é a dark web?
 
 <p align="justify"> A dark web, também conhecida como darknet, às vezes é considerada um pequeno subconjunto da deep web. No entanto, ao contrário da deep web, a dark web é tão indexável quanto a clearnet, e os mecanismos de pesquisa para a dark web também existem. Alguns deles são o <a href="https://gjobqjj7wyczbqie.onion/"><i>Candle</i></a>, <a href="https://hss3uro2hsxfogfq.onion/"><i>Not Evil</i></a> e <a href="https://ulrn6sryqaifefld.onion/"><i>SearX</i></a>.</p>
 
@@ -39,7 +36,7 @@ toc: true
 
 <p align="justify"> Mas a dark web não está associada apenas às atividades ilegais. Informantes, jornalistas e ativistas frequentemente acessam a dark web para permanecer anônimos e divulgar os resultados de suas pesquisas. O <a href="https://wlupld3ptjvsgwqw.onion/wlupload.en.html"><i>WikiLeaks</i></a>, por exemplo, hospeda um site na dark web. Até o Facebook, DuckDuckGo e a ExpressVPN têm sites na dark web.</p>
 
-## Qual é a diferença entre a dark web e a deep web?
+# Qual é a diferença entre a dark web e a deep web?
 
 <p align="justify"> Como mencionei no início deste artigo, a dark web e a deep web geralmente são confundidas. A maneira mais fácil de entender a diferença é que nem toda deep web é dark web, mas toda dark web é deep web.</p>
 
@@ -51,7 +48,7 @@ toc: true
 
 <p align="justify"> Embora o Tor seja a maneira mais popular de acessar a dark web, o Invisible Internet Project (I2P) é outro projeto descentralizado de anonimização que implementa princípios semelhantes ao Tor. O I2P é como uma Internet independente e permite que os usuários enviem emails, escrevam blogs e conversem anonimamente como fariam na web normal.</p>
 
-## A dark web e a deep web são ilegais e seguras?
+# A dark web e a deep web são ilegais e seguras?
 
 <p align="justify"> Usar o navegador Tor ou tentar acessar uma página não indexada é perfeitamente legal. Só porque uma página não pode ser acessada por mecanismos de pesquisa não significa que ela esteja tentando promover atividades ilícitas.</p>
 
@@ -63,7 +60,7 @@ toc: true
 
 <p align="justify"> O governo e seu provedor de serviços de Internet não podem rastrear sua atividade no navegador Tor, mas saberão que você está na rede Tor. Isso pode atrair a atenção, então você precisa ter muito cuidado para manter o anonimato.</p>
 
-## Quem criou a dark web?
+# Quem criou a dark web?
 
 <p align="justify"> Assim como a própria Internet, a dark web é resultado das pesquisas do governo americano para construir redes de comunicação para fins militares e de autodefesa.</p>
 
