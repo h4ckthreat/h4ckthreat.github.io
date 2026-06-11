@@ -12,14 +12,6 @@ function initToc() {
     orderedList: false,
     scrollSmooth: false
   });
-
-  // sincroniza mobile depois do render do TOC
-  requestAnimationFrame(() => {
-    const mobileToc = document.querySelector("#mobile-toc");
-    if (mobileToc) {
-      mobileToc.innerHTML = toc.innerHTML;
-    }
-  });
 }
 
 document.addEventListener("DOMContentLoaded", initToc);
