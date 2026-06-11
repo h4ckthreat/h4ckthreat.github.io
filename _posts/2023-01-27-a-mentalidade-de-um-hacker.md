@@ -28,6 +28,6 @@ toc: true
 
 <p align="justify"> Pode parecer simples, mas na realidade, não é. A parte mais desafiadora surge quando o seu próprio ego se coloca como um obstáculo sempre que você tenta algo novo ou desafiador. Dizer coisas como "Oh, eu já sei disso" ou "Oh, isso é muito fácil" ou "Isso não é para mim" ou "Isso é realmente estúpido" não o levará adiante. A verdade é: </p>
 
-> Você não sabe de nada. Mas você com certeza vai descobrir isso.
+`Você não sabe de nada. Mas você com certeza vai descobrir isso.`
 
 <p align="justify"> A segunda parte desta receita envolve familiarizar-se com o seu ofício. Hacking não está restrito apenas a máquinas, eletrônicos e computadores. Você pode ser um hacker, não importa qual seja sua área de atuação. Seja esculpindo vidro, pintando, consertando carros, projetando fontes, não importa. Desde que você busque incessantemente resolver problemas, esteja disposto a enfrentar falhas e a criar soluções inovadoras, você é um hacker. O hacker obsessivo é aquele que deseja aprimorar suas habilidades e se tornar o melhor em sua área, seja ela qual for. Não é sobre dinheiro, fama ou qualquer superficialidade. Aqueles que invadem os computadores alheios são chamados de crackers. Já os que fazem disso sua profissão são conhecidos como Profissionais de Segurança de Rede. Em essência, o hacking representa a busca por soluções criativas para problemas que parecem insolúveis.</p>
