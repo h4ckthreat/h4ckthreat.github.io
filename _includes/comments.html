@@ -1,4 +1,3 @@
-<!--  The comments switcher -->
-  {% capture path %}comments/{{ site.comments.active }}.html{% endcapture %}
-  {% include {{ path }} %}
-{% endif %}
+<!-- The comments switcher -->
+{% capture path %}comments/{{ site.comments.active }}.html{% endcapture %}
+{% include {{ path }} %}
