@@ -3,6 +3,24 @@
 
 @import '{{ site.theme }}';
 
+/* append your custom style below */
+::selection {
+    background-color: #F074C0; /* Cor de fundo para a seleção de texto */
+    color: #000000; /* Cor do texto selecionado */
+}
+
+#sidebar .site-subtitle {
+    font-size: 100%;
+    color: var(--sidebar-muted-color);
+    margin-top: .25rem;
+    margin-left: -1.5rem;
+    word-spacing: 1px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
 a.post-tag {
     transition: color 0.05s linear !important;
 }
@@ -224,3 +242,5 @@ a.post-tag {
     to { opacity: 0; transform: none; }
 }
 */
+
+
