@@ -66,6 +66,13 @@ layout: compress
     {% endif %}
 
     {% include js-selector.html %}
+	
+	<!-- toc desktop -->
+	<script src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js"></script>
+    <script src="/assets/js/toc.js"></script>
+	
+	<!-- TOC Mobile -->
+	
 
     {% if page.mermaid %}
       {% include mermaid.html %}
