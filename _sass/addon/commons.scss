@@ -750,7 +750,7 @@ $btn-mb: 0.5rem;
     font-weight: 900;
     font-size: 1.75rem;
     line-height: 1.2;
-    letter-spacing: 0.25px;
+    letter-spacing: 1.25px;
     color: rgba(134, 133, 133, 0.99);
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
@@ -762,10 +762,9 @@ $btn-mb: 0.5rem;
   }
 
   .site-subtitle {
-    font-size: 125%;
+    font-size: 95%;
     color: var(--sidebar-muted-color);
-    margin-top: 1.25rem;
-    margin-left: -0.9rem;
+    margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
     -moz-user-select: none;
