@@ -89,20 +89,20 @@ a.post-tag {
   }
 
   /* Botão */
-  #mobile-toc-btn {
-    background: transparent;
-    color: inherit;
-    border: 1px solid rgba(255,255,255,.15);
-    border-radius: 14px;
-    padding: .8rem 1.2rem;
-    font-size: .95rem;
-    cursor: pointer;
-    transition: all .2s ease;
-  }
+ #mobile-toc-btn {
+  background: transparent;
+  color: inherit;
 
-  #mobile-toc-btn:hover {
-    border-color: rgba(255,255,255,.4);
-  }
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 8px;
+
+  padding: 0.3rem 0.9rem;
+
+  font-size: .95rem;
+
+  cursor: pointer;
+  transition: all .25s ease;
+}
 
   /* Fundo escuro */
   #mobile-toc-modal {
@@ -182,6 +182,7 @@ a.post-tag {
   }
 
 } /* fim do media */
+
 
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
 //#back-to-top:hover,
