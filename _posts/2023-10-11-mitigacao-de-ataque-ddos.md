@@ -1,14 +1,16 @@
 ---
 title: Mitigação de ataque DDoS
 date: 2023-10-11 14:30:00 +0800
-categories: [h4ckthreat, Privacidade Digital]
+categories: [Artigos, Privacidade Digital]
 tags: [Privacidade Digital, DDoS] # TAG names should always be lowercase
 image: /assets/img/posts/ddos.jpg
+toc: true
 ---
 
+## Introdução:
 <p align="justify"> O termo mitigação de ataques DDoS ou Mitigação de DDoS se refere ao processo de proteger o alvo de ataques de negação de serviço distribuído (DDoS). Ataques DDoS estão evoluindo constantemente como é da natureza da tecnologia, e também, a motivação dos atacantes também está mudando. Usualmente, os ataques são realizados e causam as vítimas perdas econômicas enormes. Para mitigar os ataques DDoS, especialmente quando estes ocorrem em grande volume, é preciso contar com uma inteligência e infraestrutura de segurança robusta. O Monitoramento Contínuo é essencial para que a equipe de resposta a incidentes possa reagir rapidamente frente a qualquer ataque de DDoS. Quando se conta com uma infraestrutura de monitoramento, ganha-se muito em inteligência de segurança e resposta a incidentes. Ao monitoramento contínuo, deve-se aliar firewalls bem gerenciados, soluções endpoint e IPS. É o conjunto da infraestrutura de segurança que permitirá a mitigação real dessas ameaças. Um típico processo de mitigação pode ser definido em quatro estágios.</p>
 
-# Estágios:
+## Estágios:
 <p align="justify"> <strong> Detecção: </strong> Fase caracterizada pela identificação de desvios de tráfego que sugerem a formação de um ataque DDoS. A efetividade é medida pela habilidade de reconhecer o ataque o mais rápido possível, com detecção instantânea sendo o melhor caso, existe um campo científico vasto nesta área em busca de formas eficientes de realizar a detecção, visto que a mesma é difícil ou até predição da mesma.</p>
 
 <p align="justify"> <strong> Desvio: </strong> Nesta fase o tráfego é redirecionado do alvo, tanto por ser filtrado ou totalmente descartado.</p>
@@ -17,7 +19,7 @@ image: /assets/img/posts/ddos.jpg
 
 <p align="justify"> <strong> Análise: </strong> Na última fase de análise os registros de segurança são analisados para colher informações sobre o ataque, tanto para identificar os atacantes quanto para aprimorar a resiliência. A efetividade do processo depende da existência de registros de segurança detalhados que possam oferecer maior visibilidade do tráfego do ataque.</p>
 
-# Técnicas de desvio (Roteamento DNS vs BGP):
+## Técnicas de desvio (Roteamento DNS vs BGP):
 <p align="justify"> Os processos descritos abaixo dependem nos mecanismos de redirecionamento que consigam desviar o tráfego malicioso do alvo. Na maioria dos casos, uma solução para mitigação irá usar ou roteamento DNS (Domain Name System) ou BGP (Border Gateway Protocol) para desviar o tráfego malicioso. Essa escolha irá definir suas funcionalidades e o tipo de segurança que pode ser ofertada.</p>
 
 <p align="justify"><strong> Roteamento DNS (ou redirecionamento DNS): </strong> é um método muito usado por serviços de mitigação DDoS: O Roteamento DNS é ativado trocando o nome CNAME e o Registro A, para que aponte o IP(s) do provedor de mitigação. Após isso, DNS inicialmente roteia todas as requisições HTTP/S para seu provedor de mitigação, onde as requisições maliciosas são descartadas e as legítimas são encaminhadas. O redirecionamento DNS somente é efetivo em mitigação de ataques na camada de aplicação. No entanto, tem o benefício de mascarar o endereço de IP do domínio. Isso oferece alguma proteção contra ataques diretamente na camada IP.</p>
@@ -26,7 +28,7 @@ image: /assets/img/posts/ddos.jpg
 
 <p align="justify"> Decidir entre DNS e BGP baseado na solução geralmente converge para a questão de qual o tipo de ataques estão sendo mais usuais. Da perspectiva de segurança, é considerada boa prática usar roteamento DNS e BGP em conjunto, o primeiro para proteção contra ataques na camada de aplicação e o outro para defender contra ataques direcionados a camada IP e outras camadas. Por isso, hoje, é comum ter ambos sendo oferecidos pelo mesmo provedor de mitigação.</p>
 
-# Escolhendo o provedor de mitigação:
+## Escolhendo o provedor de mitigação:
 <p align="justify"> Além do método de desvio de tráfego, existem vários outros aspectos que deve ser considerado para escolher um provedor de mitigação, eles incluem:</p>
 
 <p align="justify"> <strong>Capacidade da rede: </strong> é um grande meio de teste de serviços de mitigação DDoS. É medido em Gbps (gigabits por segundo) ou Tbps (terabits por segundo) e reflete em toda a escalabilidade disponível durante o ataque. Por exemplo, uma rede de 1 Tbps teoricamente bloqueia o mesmo tamanho de ataque de tráfego, menos a banda requerida para manter as operações regulares. A maioria dos serviços de mitigação baseados em cloud oferecem redes multi-Tbps, muito além da necessidade dos clientes. Serviços de mitigação On-premise por outro lado, são limitados por padrão, tanto pelo tamanho da rede do cliente quanto da capacidade do hardware.</p>
