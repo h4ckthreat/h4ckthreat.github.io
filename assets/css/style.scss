@@ -184,6 +184,17 @@ a.post-tag {
 } /* fim do media */
 
 
+.utterances {
+  max-width: 100% !important;
+}
+
+.utterances-frame {
+  width: 100% !important;
+  min-height: 450px !important;
+  border: none !important;
+}
+
+
 /* BOTÃO VOLTAR AO TOPO - HOVER BRANCO BRILHANTE */
 //#back-to-top:hover,
 //.back-to-top:hover,
