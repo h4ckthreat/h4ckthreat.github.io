@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Afinal, existe um sistema 100% seguro ?
 date: 2023-02-06 14:30:00 +0800
 categories: [Artigos, Privacidade Digital]
