@@ -96,10 +96,10 @@ comments:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
-  utterances:
-    repo: h4ckthreat/h4ckthreat.github.io # <gh-username>/<repo>
-    issue_term: pathname # < url | pathname | title | ...>
-    theme: github-dark
+  #utterances:
+    #repo: h4ckthreat/h4ckthreat.github.io # <gh-username>/<repo>
+    #issue_term: pathname # < url | pathname | title | ...>
+    #theme: github-dark
     
   # Giscus options › https://giscus.app 
   giscus:
