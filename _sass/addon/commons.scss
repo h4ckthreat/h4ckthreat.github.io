@@ -762,10 +762,9 @@ $btn-mb: 0.5rem;
   }
 
   .site-subtitle {
-    font-size: 125%;
+    font-size: 95%;
     color: var(--sidebar-muted-color);
-    margin-top: 1.25rem;
-    margin-left: -0.9rem;
+    margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -1383,7 +1382,7 @@ $btn-mb: 0.5rem;
       width: auto;
       &:last-child {
         &::before {
-          content: '';
+          content: '-';
           margin: 0 0.75rem;
           opacity: 0.8;
         }
